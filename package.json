@@ -1,0 +1,13 @@
+{
+  "name": "demoWebInterface",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "johnny-five": "^0.9.52",
+    "lodash": "^4.13.1",
+    "meteor-node-stubs": "^0.2.3",
+    "serialport": "^3.1.2"
+  }
+}

@@ -1,0 +1,2691 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/excalliburbd/.nvm/v0.10.43/bin/node',
+1 verbose cli   '/home/excalliburbd/.nvm/v0.10.43/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'npm',
+1 verbose cli   'mantra' ]
+2 info using npm@1.4.29
+3 info using node@v0.10.43
+4 warn deprecated This version of npm lacks support for important features,
+5 warn deprecated such as scoped packages, offered by the primary npm
+6 warn deprecated registry. Consider upgrading to at least npm@2, if not the
+7 warn deprecated latest stable version. To upgrade to npm@2, run:
+8 warn deprecated npm -g install npm@latest-2
+9 warn deprecated To upgrade to the latest stable version, run:
+10 warn deprecated npm -g install npm@latest
+11 warn deprecated (Depending on how Node.js was installed on your system, you
+12 warn deprecated may need to prefix the preceding commands with `sudo`, or if
+13 warn deprecated on Windows, run them from an Administrator prompt.)
+14 warn deprecated If you're running the version of npm bundled with
+15 warn deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+16 warn deprecated will be bundled with a version of npm@2, which has some small
+17 warn deprecated backwards-incompatible changes made to `npm run-script` and
+18 warn deprecated semver behavior.
+19 verbose cache add [ 'npm', null ]
+20 verbose cache add name=undefined spec="npm" args=["npm",null]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: 'npm',
+21 verbose parsed url   path: 'npm',
+21 verbose parsed url   href: 'npm' }
+22 verbose cache add [ 'mantra', null ]
+23 verbose cache add name=undefined spec="mantra" args=["mantra",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'mantra',
+24 verbose parsed url   path: 'mantra',
+24 verbose parsed url   href: 'mantra' }
+25 silly lockFile 660051d1-npm npm
+26 verbose lock npm /home/excalliburbd/.npm/660051d1-npm.lock
+27 silly lockFile 00e8a1eb-mantra mantra
+28 verbose lock mantra /home/excalliburbd/.npm/00e8a1eb-mantra.lock
+29 silly lockFile 660051d1-npm npm
+30 silly lockFile 660051d1-npm npm
+31 verbose addNamed [ 'npm', '' ]
+32 verbose addNamed [ null, '*' ]
+33 silly lockFile 2f990b75-npm npm@
+34 verbose lock npm@ /home/excalliburbd/.npm/2f990b75-npm.lock
+35 silly lockFile 00e8a1eb-mantra mantra
+36 silly lockFile 00e8a1eb-mantra mantra
+37 verbose addNamed [ 'mantra', '' ]
+38 verbose addNamed [ null, '*' ]
+39 silly lockFile 9763582c-mantra mantra@
+40 verbose lock mantra@ /home/excalliburbd/.npm/9763582c-mantra.lock
+41 silly addNameRange { name: 'npm', range: '*', hasData: false }
+42 silly addNameRange { name: 'mantra', range: '*', hasData: false }
+43 verbose request where is /mantra
+44 verbose request registry https://registry.npmjs.org/
+45 verbose request id 262710b33e1c6223
+46 verbose url raw /mantra
+47 verbose url resolving [ 'https://registry.npmjs.org/', './mantra' ]
+48 verbose url resolved https://registry.npmjs.org/mantra
+49 verbose request where is https://registry.npmjs.org/mantra
+50 info trying registry request attempt 1 at 19:10:57
+51 verbose etag "3V94B8K13XHEIYANMTAJCOCC1"
+52 http GET https://registry.npmjs.org/mantra
+53 verbose request where is /npm
+54 verbose request registry https://registry.npmjs.org/
+55 verbose url raw /npm
+56 verbose url resolving [ 'https://registry.npmjs.org/', './npm' ]
+57 verbose url resolved https://registry.npmjs.org/npm
+58 verbose request where is https://registry.npmjs.org/npm
+59 info trying registry request attempt 1 at 19:10:58
+60 verbose etag "2IHV31C8VMJGF8SC50VKY90J3"
+61 http GET https://registry.npmjs.org/npm
+62 http 304 https://registry.npmjs.org/npm
+63 silly registry.get cb [ 304,
+63 silly registry.get   { date: 'Thu, 02 Jun 2016 13:10:58 GMT',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     'cache-control': 'max-age=300',
+63 silly registry.get     etag: '"2IHV31C8VMJGF8SC50VKY90J3"',
+63 silly registry.get     age: '198',
+63 silly registry.get     connection: 'keep-alive',
+63 silly registry.get     'x-served-by': 'cache-sin6921-SIN',
+63 silly registry.get     'x-cache': 'HIT',
+63 silly registry.get     'x-cache-hits': '3',
+63 silly registry.get     'x-timer': 'S1464873058.424424,VS0,VE0',
+63 silly registry.get     vary: 'Accept-Encoding' } ]
+64 verbose etag https://registry.npmjs.org/npm from cache
+65 http 304 https://registry.npmjs.org/mantra
+66 silly registry.get cb [ 304,
+66 silly registry.get   { date: 'Thu, 02 Jun 2016 13:10:58 GMT',
+66 silly registry.get     via: '1.1 varnish',
+66 silly registry.get     'cache-control': 'max-age=300',
+66 silly registry.get     etag: '"3V94B8K13XHEIYANMTAJCOCC1"',
+66 silly registry.get     age: '0',
+66 silly registry.get     connection: 'keep-alive',
+66 silly registry.get     'x-served-by': 'cache-sin6924-SIN',
+66 silly registry.get     'x-cache': 'MISS',
+66 silly registry.get     'x-cache-hits': '0',
+66 silly registry.get     'x-timer': 'S1464873058.424018,VS0,VE207',
+66 silly registry.get     vary: 'Accept-Encoding' } ]
+67 verbose etag https://registry.npmjs.org/mantra from cache
+68 silly addNameRange number 2 { name: 'mantra', range: '*', hasData: true }
+69 silly addNameRange versions [ 'mantra', [ '0.1.1' ] ]
+70 verbose addNamed [ 'mantra', '0.1.1' ]
+71 verbose addNamed [ '0.1.1', '0.1.1' ]
+72 silly lockFile b704de6f-mantra-0-1-1 mantra@0.1.1
+73 verbose lock mantra@0.1.1 /home/excalliburbd/.npm/b704de6f-mantra-0-1-1.lock
+74 silly addNameRange number 2 { name: 'npm', range: '*', hasData: true }
+75 silly addNameRange versions [ 'npm',
+75 silly addNameRange   [ '1.1.25',
+75 silly addNameRange     '1.2.32',
+75 silly addNameRange     '1.3.2',
+75 silly addNameRange     '1.3.4',
+75 silly addNameRange     '1.2.20',
+75 silly addNameRange     '1.2.21',
+75 silly addNameRange     '1.2.22',
+75 silly addNameRange     '1.2.23',
+75 silly addNameRange     '1.2.24',
+75 silly addNameRange     '1.2.25',
+75 silly addNameRange     '1.2.27',
+75 silly addNameRange     '1.2.28',
+75 silly addNameRange     '1.2.30',
+75 silly addNameRange     '1.2.31',
+75 silly addNameRange     '1.3.0',
+75 silly addNameRange     '1.3.1',
+75 silly addNameRange     '1.2.19',
+75 silly addNameRange     '1.1.70',
+75 silly addNameRange     '1.1.71',
+75 silly addNameRange     '1.3.5',
+75 silly addNameRange     '1.3.6',
+75 silly addNameRange     '1.3.7',
+75 silly addNameRange     '1.3.8',
+75 silly addNameRange     '1.3.9',
+75 silly addNameRange     '1.3.10',
+75 silly addNameRange     '1.3.11',
+75 silly addNameRange     '1.3.12',
+75 silly addNameRange     '1.3.13',
+75 silly addNameRange     '1.3.14',
+75 silly addNameRange     '1.3.15',
+75 silly addNameRange     '1.3.16',
+75 silly addNameRange     '1.3.17',
+75 silly addNameRange     '1.3.18',
+75 silly addNameRange     '1.3.20',
+75 silly addNameRange     '1.3.21',
+75 silly addNameRange     '1.3.22',
+75 silly addNameRange     '1.3.23',
+75 silly addNameRange     '1.3.24',
+75 silly addNameRange     '1.3.25',
+75 silly addNameRange     '1.3.26',
+75 silly addNameRange     '1.4.0',
+75 silly addNameRange     '1.4.1',
+75 silly addNameRange     '1.4.2',
+75 silly addNameRange     '1.4.3',
+75 silly addNameRange     '1.4.4',
+75 silly addNameRange     '1.4.5',
+75 silly addNameRange     '1.4.6',
+75 silly addNameRange     '1.4.7',
+75 silly addNameRange     '1.4.8',
+75 silly addNameRange     '1.4.9',
+75 silly addNameRange     '1.4.10',
+75 silly addNameRange     '1.4.11',
+75 silly addNameRange     '1.4.12',
+75 silly addNameRange     '1.4.13',
+75 silly addNameRange     '1.4.14',
+75 silly addNameRange     '1.4.15',
+75 silly addNameRange     '1.4.16',
+75 silly addNameRange     '1.2.8000',
+75 silly addNameRange     '1.4.17',
+75 silly addNameRange     '1.4.18',
+75 silly addNameRange     '1.4.19',
+75 silly addNameRange     '1.5.0-alpha-0',
+75 silly addNameRange     '1.5.0-alpha-1',
+75 silly addNameRange     '1.4.20',
+75 silly addNameRange     '1.5.0-alpha-2',
+75 silly addNameRange     '1.4.21',
+75 silly addNameRange     '1.5.0-alpha-3',
+75 silly addNameRange     '1.5.0-alpha-4',
+75 silly addNameRange     '2.0.0-alpha-5',
+75 silly addNameRange     '1.4.22',
+75 silly addNameRange     '1.4.23',
+75 silly addNameRange     '2.0.0-alpha.6.0',
+75 silly addNameRange     '1.4.24',
+75 silly addNameRange     '2.0.0-alpha.6',
+75 silly addNameRange     '2.0.0-alpha.7',
+75 silly addNameRange     '2.0.0-beta.0',
+75 silly addNameRange     '1.4.25',
+75 silly addNameRange     '2.0.0-beta.1',
+75 silly addNameRange     '1.4.26',
+75 silly addNameRange     '2.0.0-beta.2',
+75 silly addNameRange     '1.4.27',
+75 silly addNameRange     '2.0.0-beta.3',
+75 silly addNameRange     '1.4.28',
+75 silly addNameRange     '2.0.0',
+75 silly addNameRange     '2.0.1',
+75 silly addNameRange     '2.0.2',
+75 silly addNameRange     '2.1.0',
+75 silly addNameRange     '2.1.1',
+75 silly addNameRange     '2.1.2',
+75 silly addNameRange     '2.1.3',
+75 silly addNameRange     '2.1.4',
+75 silly addNameRange     '2.1.5',
+75 silly addNameRange     '2.1.6',
+75 silly addNameRange     '2.1.7',
+75 silly addNameRange     '2.1.8',
+75 silly addNameRange     '2.1.9',
+75 silly addNameRange     '2.1.10',
+75 silly addNameRange     '2.1.11',
+75 silly addNameRange     '2.1.12',
+75 silly addNameRange     '2.1.13',
+75 silly addNameRange     '2.1.14',
+75 silly addNameRange     '2.1.15',
+75 silly addNameRange     '2.1.16',
+75 silly addNameRange     '2.1.17',
+75 silly addNameRange     '2.1.18',
+75 silly addNameRange     '2.2.0',
+75 silly addNameRange     '2.3.0',
+75 silly addNameRange     '2.4.0',
+75 silly addNameRange     '2.4.1',
+75 silly addNameRange     '2.5.0',
+75 silly addNameRange     '2.5.1',
+75 silly addNameRange     '2.6.0',
+75 silly addNameRange     '2.6.1',
+75 silly addNameRange     '2.7.0',
+75 silly addNameRange     '2.7.1',
+75 silly addNameRange     '2.7.2',
+75 silly addNameRange     '2.7.3',
+75 silly addNameRange     '2.7.4',
+75 silly addNameRange     '2.7.5',
+75 silly addNameRange     '2.7.6',
+75 silly addNameRange     '2.8.0',
+75 silly addNameRange     '2.8.1',
+75 silly addNameRange     '2.8.2',
+75 silly addNameRange     '2.8.3',
+75 silly addNameRange     '2.8.4',
+75 silly addNameRange     '2.9.0',
+75 silly addNameRange     '2.9.1',
+75 silly addNameRange     '2.10.0',
+75 silly addNameRange     '2.10.1',
+75 silly addNameRange     '2.11.0',
+75 silly addNameRange     '2.11.1',
+75 silly addNameRange     '2.11.2',
+75 silly addNameRange     '2.11.3',
+75 silly addNameRange     '2.12.0',
+75 silly addNameRange     '3.0.0',
+75 silly addNameRange     '2.12.1',
+75 silly addNameRange     '2.13.0',
+75 silly addNameRange     '3.1.0',
+75 silly addNameRange     '2.13.1',
+75 silly addNameRange     '3.1.1',
+75 silly addNameRange     '3.1.2',
+75 silly addNameRange     '2.13.2',
+75 silly addNameRange     '3.1.3',
+75 silly addNameRange     '2.13.3',
+75 silly addNameRange     '3.2.0',
+75 silly addNameRange     '2.13.4',
+75 silly addNameRange     '3.2.1',
+75 silly addNameRange     '2.13.5',
+75 silly addNameRange     '3.2.2',
+75 silly addNameRange     '2.14.0',
+75 silly addNameRange     '3.3.0',
+75 silly addNameRange     '2.14.1',
+75 silly addNameRange     '2.14.2',
+75 silly addNameRange     '3.3.1',
+75 silly addNameRange     '2.14.3',
+75 silly addNameRange     '3.3.2',
+75 silly addNameRange     '2.14.4',
+75 silly addNameRange     '3.3.3',
+75 silly addNameRange     '2.14.5',
+75 silly addNameRange     '3.3.4',
+75 silly addNameRange     '2.14.6',
+75 silly addNameRange     '3.3.5',
+75 silly addNameRange     '3.3.6',
+75 silly addNameRange     '2.14.7',
+75 silly addNameRange     '2.14.8',
+75 silly addNameRange     '3.3.7',
+75 silly addNameRange     '3.3.8',
+75 silly addNameRange     '3.3.9',
+75 silly addNameRange     '3.3.10',
+75 silly addNameRange     '2.14.9',
+75 silly addNameRange     '3.3.11',
+75 silly addNameRange     '1.4.29',
+75 silly addNameRange     '3.3.12',
+75 silly addNameRange     '2.14.10',
+75 silly addNameRange     '3.4.0',
+75 silly addNameRange     '3.4.1',
+75 silly addNameRange     '2.14.11',
+75 silly addNameRange     '2.14.12',
+75 silly addNameRange     '3.5.0',
+75 silly addNameRange     '3.5.1',
+75 silly addNameRange     '2.14.13',
+75 silly addNameRange     '2.14.14',
+75 silly addNameRange     '3.5.2',
+75 silly addNameRange     '2.14.15',
+75 silly addNameRange     '3.5.3',
+75 silly addNameRange     '3.5.4',
+75 silly addNameRange     '3.6.0',
+75 silly addNameRange     '2.14.16',
+75 silly addNameRange     '2.14.17',
+75 silly addNameRange     '3.7.0',
+75 silly addNameRange     '3.7.1',
+75 silly addNameRange     '3.7.2',
+75 silly addNameRange     '2.14.18',
+75 silly addNameRange     '3.7.3',
+75 silly addNameRange     '2.14.19',
+75 silly addNameRange     '2.14.20',
+75 silly addNameRange     '3.7.4',
+75 silly addNameRange     '3.7.5',
+75 silly addNameRange     '2.14.21',
+75 silly addNameRange     '3.8.0',
+75 silly addNameRange     '2.14.22',
+75 silly addNameRange     '3.8.1',
+75 silly addNameRange     '3.8.2',
+75 silly addNameRange     '2.15.0',
+75 silly addNameRange     '2.15.1',
+75 silly addNameRange     '3.8.3',
+75 silly addNameRange     '2.15.2',
+75 silly addNameRange     '3.8.4',
+75 silly addNameRange     '3.8.5',
+75 silly addNameRange     '3.8.6',
+75 silly addNameRange     '2.15.3',
+75 silly addNameRange     '3.8.7',
+75 silly addNameRange     '2.15.4',
+75 silly addNameRange     '3.8.8',
+75 silly addNameRange     '3.8.9',
+75 silly addNameRange     '2.15.5',
+75 silly addNameRange     '3.9.0',
+75 silly addNameRange     '3.9.1',
+75 silly addNameRange     '2.15.6',
+75 silly addNameRange     '3.9.2',
+75 silly addNameRange     '3.9.3',
+75 silly addNameRange     '3.9.4',
+75 silly addNameRange     '3.9.5' ] ]
+76 verbose addNamed [ 'npm', '3.9.3' ]
+77 verbose addNamed [ '3.9.3', '3.9.3' ]
+78 silly lockFile 8a2d779a-npm-3-9-3 npm@3.9.3
+79 verbose lock npm@3.9.3 /home/excalliburbd/.npm/8a2d779a-npm-3-9-3.lock
+80 silly lockFile b704de6f-mantra-0-1-1 mantra@0.1.1
+81 silly lockFile b704de6f-mantra-0-1-1 mantra@0.1.1
+82 silly lockFile 9763582c-mantra mantra@
+83 silly lockFile 9763582c-mantra mantra@
+84 silly lockFile 8a2d779a-npm-3-9-3 npm@3.9.3
+85 silly lockFile 8a2d779a-npm-3-9-3 npm@3.9.3
+86 silly lockFile 2f990b75-npm npm@
+87 silly lockFile 2f990b75-npm npm@
+88 silly resolved [ { name: 'mantra',
+88 silly resolved     version: '0.1.1',
+88 silly resolved     description: 'Outputs a .mantra.txt that can be used when opening terminal shells',
+88 silly resolved     main: 'index.js',
+88 silly resolved     scripts: { test: 'mocha' },
+88 silly resolved     bin: { mantra: './mantra.js' },
+88 silly resolved     preferGlobal: true,
+88 silly resolved     repository: { type: 'git', url: 'https://github.com/simplyianm/mantra' },
+88 silly resolved     keywords: [ 'mantra', 'selfimprovement', 'shell', 'cli' ],
+88 silly resolved     author: { name: 'Ian Macalinao', email: 'me@ian.pw' },
+88 silly resolved     license: 'MIT',
+88 silly resolved     bugs: { url: 'https://github.com/simplyianm/mantra/issues' },
+88 silly resolved     dependencies: { chalk: '^0.5.1' },
+88 silly resolved     devDependencies: { chai: '~1.8.1', mocha: '~1.17.0' },
+88 silly resolved     homepage: 'https://github.com/simplyianm/mantra',
+88 silly resolved     _id: 'mantra@0.1.1',
+88 silly resolved     _shasum: '1ac5f3630f055f5ed59c93b877cbb8ec99033b68',
+88 silly resolved     _from: 'mantra@',
+88 silly resolved     _npmVersion: '1.4.9',
+88 silly resolved     _npmUser: { name: 'simplyianm', email: 'me@ian.pw' },
+88 silly resolved     maintainers: [ [Object] ],
+88 silly resolved     dist:
+88 silly resolved      { shasum: '1ac5f3630f055f5ed59c93b877cbb8ec99033b68',
+88 silly resolved        tarball: 'https://registry.npmjs.org/mantra/-/mantra-0.1.1.tgz' },
+88 silly resolved     directories: {},
+88 silly resolved     _resolved: 'https://registry.npmjs.org/mantra/-/mantra-0.1.1.tgz',
+88 silly resolved     readme: 'ERROR: No README data found!' },
+88 silly resolved   { version: '3.9.3',
+88 silly resolved     name: 'npm',
+88 silly resolved     description: 'a package manager for JavaScript',
+88 silly resolved     keywords: [ 'install', 'modules', 'package manager', 'package.json' ],
+88 silly resolved     preferGlobal: true,
+88 silly resolved     config: { publishtest: false },
+88 silly resolved     homepage: 'https://docs.npmjs.com/',
+88 silly resolved     author:
+88 silly resolved      { name: 'Isaac Z. Schlueter',
+88 silly resolved        email: 'i@izs.me',
+88 silly resolved        url: 'http://blog.izs.me' },
+88 silly resolved     repository: { type: 'git', url: 'git+https://github.com/npm/npm.git' },
+88 silly resolved     bugs: { url: 'https://github.com/npm/npm/issues' },
+88 silly resolved     directories: { bin: './bin', doc: './doc', lib: './lib', man: './man' },
+88 silly resolved     main: './lib/npm.js',
+88 silly resolved     bin: { npm: './bin/npm-cli.js' },
+88 silly resolved     dependencies:
+88 silly resolved      { abbrev: '~1.0.7',
+88 silly resolved        ansicolors: '~0.3.2',
+88 silly resolved        ansistyles: '~0.1.3',
+88 silly resolved        aproba: '~1.0.1',
+88 silly resolved        archy: '~1.0.0',
+88 silly resolved        chownr: '~1.0.1',
+88 silly resolved        'cmd-shim': '~2.0.2',
+88 silly resolved        columnify: '~1.5.4',
+88 silly resolved        'config-chain': '~1.1.10',
+88 silly resolved        dezalgo: '~1.0.3',
+88 silly resolved        editor: '~1.0.0',
+88 silly resolved        'fs-vacuum': '~1.2.9',
+88 silly resolved        'fs-write-stream-atomic': '~1.0.8',
+88 silly resolved        fstream: '~1.0.8',
+88 silly resolved        'fstream-npm': '~1.1.0',
+88 silly resolved        glob: '~7.0.3',
+88 silly resolved        'graceful-fs': '~4.1.4',
+88 silly resolved        'has-unicode': '~2.0.0',
+88 silly resolved        'hosted-git-info': '~2.1.5',
+88 silly resolved        iferr: '~0.1.5',
+88 silly resolved        inflight: '~1.0.5',
+88 silly resolved        inherits: '~2.0.1',
+88 silly resolved        ini: '~1.3.4',
+88 silly resolved        'init-package-json': '~1.9.4',
+88 silly resolved        lockfile: '~1.0.1',
+88 silly resolved        'lodash._baseuniq': '~4.6.0',
+88 silly resolved        'lodash.clonedeep': '~4.3.2',
+88 silly resolved        'lodash.isarray': '~4.0.0',
+88 silly resolved        'lodash.keys': '~4.0.7',
+88 silly resolved        'lodash.union': '~4.4.0',
+88 silly resolved        'lodash.uniq': '~4.3.0',
+88 silly resolved        'lodash.without': '~4.2.0',
+88 silly resolved        mkdirp: '~0.5.1',
+88 silly resolved        'node-gyp': '~3.3.1',
+88 silly resolved        nopt: '~3.0.6',
+88 silly resolved        'normalize-git-url': '~3.0.2',
+88 silly resolved        'normalize-package-data': '~2.3.5',
+88 silly resolved        'npm-cache-filename': '~1.0.2',
+88 silly resolved        'npm-install-checks': '~3.0.0',
+88 silly resolved        'npm-package-arg': '~4.1.1',
+88 silly resolved        'npm-registry-client': '~7.1.0',
+88 silly resolved        'npm-user-validate': '~0.1.2',
+88 silly resolved        npmlog: '~2.0.3',
+88 silly resolved        once: '~1.3.3',
+88 silly resolved        opener: '~1.4.1',
+88 silly resolved        osenv: '~0.1.3',
+88 silly resolved        'path-is-inside': '~1.0.1',
+88 silly resolved        read: '~1.0.7',
+88 silly resolved        'read-cmd-shim': '~1.0.1',
+88 silly resolved        'read-installed': '~4.0.3',
+88 silly resolved        'read-package-json': '~2.0.4',
+88 silly resolved        'read-package-tree': '~5.1.4',
+88 silly resolved        'readable-stream': '~2.1.3',
+88 silly resolved        'realize-package-specifier': '~3.0.3',
+88 silly resolved        request: '~2.72.0',
+88 silly resolved        retry: '~0.9.0',
+88 silly resolved        rimraf: '~2.5.2',
+88 silly resolved        semver: '~5.1.0',
+88 silly resolved        sha: '~2.0.1',
+88 silly resolved        slide: '~1.1.6',
+88 silly resolved        'sorted-object': '~2.0.0',
+88 silly resolved        'strip-ansi': '~3.0.1',
+88 silly resolved        tar: '~2.2.1',
+88 silly resolved        'text-table': '~0.2.0',
+88 silly resolved        'uid-number': '0.0.6',
+88 silly resolved        umask: '~1.1.0',
+88 silly resolved        'unique-filename': '~1.1.0',
+88 silly resolved        unpipe: '~1.0.0',
+88 silly resolved        'validate-npm-package-name': '~2.2.2',
+88 silly resolved        which: '~1.2.9',
+88 silly resolved        wrappy: '~1.0.1',
+88 silly resolved        'write-file-atomic': '~1.1.4',
+88 silly resolved        'ansi-regex': '*',
+88 silly resolved        debuglog: '*',
+88 silly resolved        imurmurhash: '*',
+88 silly resolved        'lodash._baseindexof': '*',
+88 silly resolved        'lodash._bindcallback': '*',
+88 silly resolved        'lodash._cacheindexof': '*',
+88 silly resolved        'lodash._createcache': '*',
+88 silly resolved        'lodash._getnative': '*',
+88 silly resolved        'lodash.restparam': '*',
+88 silly resolved        'readdir-scoped-modules': '*',
+88 silly resolved        'validate-npm-package-license': '*' },
+88 silly resolved     bundleDependencies:
+88 silly resolved      [ 'abbrev',
+88 silly resolved        'ansi-regex',
+88 silly resolved        'ansicolors',
+88 silly resolved        'ansistyles',
+88 silly resolved        'aproba',
+88 silly resolved        'archy',
+88 silly resolved        'chownr',
+88 silly resolved        'cmd-shim',
+88 silly resolved        'columnify',
+88 silly resolved        'config-chain',
+88 silly resolved        'debuglog',
+88 silly resolved        'dezalgo',
+88 silly resolved        'editor',
+88 silly resolved        'fs-vacuum',
+88 silly resolved        'fs-write-stream-atomic',
+88 silly resolved        'fstream',
+88 silly resolved        'fstream-npm',
+88 silly resolved        'glob',
+88 silly resolved        'graceful-fs',
+88 silly resolved        'has-unicode',
+88 silly resolved        'hosted-git-info',
+88 silly resolved        'iferr',
+88 silly resolved        'imurmurhash',
+88 silly resolved        'inflight',
+88 silly resolved        'inherits',
+88 silly resolved        'ini',
+88 silly resolved        'init-package-json',
+88 silly resolved        'lockfile',
+88 silly resolved        'lodash._baseindexof',
+88 silly resolved        'lodash._baseuniq',
+88 silly resolved        'lodash._bindcallback',
+88 silly resolved        'lodash._cacheindexof',
+88 silly resolved        'lodash._createcache',
+88 silly resolved        'lodash._getnative',
+88 silly resolved        'lodash.clonedeep',
+88 silly resolved        'lodash.isarray',
+88 silly resolved        'lodash.keys',
+88 silly resolved        'lodash.restparam',
+88 silly resolved        'lodash.union',
+88 silly resolved        'lodash.uniq',
+88 silly resolved        'lodash.without',
+88 silly resolved        'mkdirp',
+88 silly resolved        'node-gyp',
+88 silly resolved        'nopt',
+88 silly resolved        'normalize-git-url',
+88 silly resolved        'normalize-package-data',
+88 silly resolved        'npm-cache-filename',
+88 silly resolved        'npm-install-checks',
+88 silly resolved        'npm-package-arg',
+88 silly resolved        'npm-registry-client',
+88 silly resolved        'npm-user-validate',
+88 silly resolved        'npmlog',
+88 silly resolved        'once',
+88 silly resolved        'opener',
+88 silly resolved        'osenv',
+88 silly resolved        'path-is-inside',
+88 silly resolved        'read',
+88 silly resolved        'read-cmd-shim',
+88 silly resolved        'read-installed',
+88 silly resolved        'read-package-json',
+88 silly resolved        'read-package-tree',
+88 silly resolved        'readable-stream',
+88 silly resolved        'readdir-scoped-modules',
+88 silly resolved        'realize-package-specifier',
+88 silly resolved        'request',
+88 silly resolved        'retry',
+88 silly resolved        'rimraf',
+88 silly resolved        'semver',
+88 silly resolved        'sha',
+88 silly resolved        'slide',
+88 silly resolved        'sorted-object',
+88 silly resolved        'strip-ansi',
+88 silly resolved        'tar',
+88 silly resolved        'text-table',
+88 silly resolved        'uid-number',
+88 silly resolved        'umask',
+88 silly resolved        'unique-filename',
+88 silly resolved        'unpipe',
+88 silly resolved        'validate-npm-package-license',
+88 silly resolved        'validate-npm-package-name',
+88 silly resolved        'which',
+88 silly resolved        'wrappy',
+88 silly resolved        'write-file-atomic' ],
+88 silly resolved     devDependencies:
+88 silly resolved      { 'deep-equal': '~1.0.1',
+88 silly resolved        marked: '~0.3.5',
+88 silly resolved        'marked-man': '~0.1.5',
+88 silly resolved        'npm-registry-couchapp': '~2.6.12',
+88 silly resolved        'npm-registry-mock': '~1.0.1',
+88 silly resolved        'require-inject': '~1.3.1',
+88 silly resolved        'sprintf-js': '~1.0.3',
+88 silly resolved        standard: '~6.0.8',
+88 silly resolved        tacks: '~1.2.1',
+88 silly resolved        tap: '~5.7.1' },
+88 silly resolved     scripts:
+88 silly resolved      { dumpconf: 'env | grep npm | sort | uniq',
+88 silly resolved        prepublish: 'node bin/npm-cli.js prune --prefix=. --no-global && rimraf test/*/*/node_modules && make doc-clean && make -j4 doc',
+88 silly resolved        preversion: 'bash scripts/update-authors.sh && git add AUTHORS && git commit -m "update AUTHORS" || true',
+88 silly resolved        tap: 'tap --coverage --reporter=classic --timeout 300',
+88 silly resolved        test: 'standard && npm run test-tap',
+88 silly resolved        'test-tap': 'npm run tap -- "test/tap/*.js"',
+88 silly resolved        'test-node': '"$NODE" "node_modules/.bin/tap" --timeout 240 "test/tap/*.js"' },
+88 silly resolved     license: 'Artistic-2.0',
+88 silly resolved     contributors:
+88 silly resolved      [ [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object],
+88 silly resolved        [Object] ],
+88 silly resolved     man:
+88 silly resolved      [ '/Users/zkat/Documents/code/npm/man/man1/npm-access.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-adduser.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-bin.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-bugs.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-build.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-bundle.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-cache.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-completion.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-config.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-dedupe.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-deprecate.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-dist-tag.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-docs.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-edit.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-explore.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-help-search.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-help.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-init.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-install-test.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-install.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-link.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-logout.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-ls.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-outdated.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-owner.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-pack.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-ping.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-prefix.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-prune.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-publish.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-README.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-rebuild.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-repo.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-restart.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-root.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-run-script.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-search.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-shrinkwrap.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-star.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-stars.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-start.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-stop.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-tag.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-team.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-test.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-uninstall.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-unpublish.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-update.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-version.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-view.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm-whoami.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man1/npm.1',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man5/npm-folders.5',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man5/npm-global.5',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man5/npm-json.5',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man5/npmrc.5',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man5/package.json.5',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-coding-style.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-config.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-developers.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-disputes.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-index.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-orgs.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-registry.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-scope.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/npm-scripts.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/removing-npm.7',
+88 silly resolved        '/Users/zkat/Documents/code/npm/man/man7/semver.7' ],
+88 silly resolved     gitHead: '5e2fec7f7ad42e3f5aa525064b39abb9fa3e545a',
+88 silly resolved     _id: 'npm@3.9.3',
+88 silly resolved     _shasum: '1b3dd326a2a228ef9a623f1df3a60ff6f4b3c449',
+88 silly resolved     _from: 'npm@',
+88 silly resolved     _npmVersion: '3.9.3',
+88 silly resolved     _nodeVersion: '5.10.1',
+88 silly resolved     _npmUser: { name: 'zkat', email: 'kat@sykosomatic.org' },
+88 silly resolved     dist:
+88 silly resolved      { shasum: '1b3dd326a2a228ef9a623f1df3a60ff6f4b3c449',
+88 silly resolved        tarball: 'https://registry.npmjs.org/npm/-/npm-3.9.3.tgz' },
+88 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+88 silly resolved     _npmOperationalInternal:
+88 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+88 silly resolved        tmp: 'tmp/npm-3.9.3.tgz_1463695265647_0.22005272074602544' },
+88 silly resolved     _resolved: 'https://registry.npmjs.org/npm/-/npm-3.9.3.tgz',
+88 silly resolved     readme: 'ERROR: No README data found!' } ]
+89 info install mantra@0.1.1 into /home/excalliburbd/.nvm/v0.10.43/lib
+90 info install npm@3.9.3 into /home/excalliburbd/.nvm/v0.10.43/lib
+91 info installOne mantra@0.1.1
+92 info installOne npm@3.9.3
+93 verbose lib/node_modules/mantra unbuild
+94 verbose lib/node_modules/npm unbuild
+95 verbose tar unpack /home/excalliburbd/.npm/mantra/0.1.1/package.tgz
+96 silly lockFile 627ce38b-v0-10-43-lib-node-modules-mantra tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra
+97 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra /home/excalliburbd/.npm/627ce38b-v0-10-43-lib-node-modules-mantra.lock
+98 silly lockFile d6832ae0-rbd-npm-mantra-0-1-1-package-tgz tar:///home/excalliburbd/.npm/mantra/0.1.1/package.tgz
+99 verbose lock tar:///home/excalliburbd/.npm/mantra/0.1.1/package.tgz /home/excalliburbd/.npm/d6832ae0-rbd-npm-mantra-0-1-1-package-tgz.lock
+100 silly gunzTarPerm modes [ '775', '664' ]
+101 info preuninstall npm@1.4.29
+102 info uninstall npm@1.4.29
+103 verbose true,/home/excalliburbd/.nvm/v0.10.43/lib/node_modules,/home/excalliburbd/.nvm/v0.10.43/lib/node_modules unbuild npm@1.4.29
+104 verbose /home/excalliburbd/.nvm/v0.10.43/bin,[object Object] binRoot
+105 silly gunzTarPerm extractEntry package.json
+106 info postuninstall npm@1.4.29
+107 silly gunzTarPerm extractEntry .npmignore
+108 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+109 silly gunzTarPerm extractEntry README.md
+110 silly gunzTarPerm extractEntry mantra.js
+111 silly gunzTarPerm extractEntry .travis.yml
+112 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+113 silly gunzTarPerm extractEntry LICENSE.txt
+114 verbose tar unpack /home/excalliburbd/.npm/npm/3.9.3/package.tgz
+115 silly lockFile 1452b149-vm-v0-10-43-lib-node-modules-npm tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm
+116 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm /home/excalliburbd/.npm/1452b149-vm-v0-10-43-lib-node-modules-npm.lock
+117 silly lockFile f16f38bb-iburbd-npm-npm-3-9-3-package-tgz tar:///home/excalliburbd/.npm/npm/3.9.3/package.tgz
+118 verbose lock tar:///home/excalliburbd/.npm/npm/3.9.3/package.tgz /home/excalliburbd/.npm/f16f38bb-iburbd-npm-npm-3-9-3-package-tgz.lock
+119 silly gunzTarPerm modes [ '775', '664' ]
+120 silly lockFile 627ce38b-v0-10-43-lib-node-modules-mantra tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra
+121 silly lockFile 627ce38b-v0-10-43-lib-node-modules-mantra tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra
+122 silly lockFile d6832ae0-rbd-npm-mantra-0-1-1-package-tgz tar:///home/excalliburbd/.npm/mantra/0.1.1/package.tgz
+123 silly lockFile d6832ae0-rbd-npm-mantra-0-1-1-package-tgz tar:///home/excalliburbd/.npm/mantra/0.1.1/package.tgz
+124 info preinstall mantra@0.1.1
+125 verbose readDependencies using package.json deps
+126 verbose readDependencies using package.json deps
+127 verbose cache add [ 'chalk@^0.5.1', null ]
+128 verbose cache add name=undefined spec="chalk@^0.5.1" args=["chalk@^0.5.1",null]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: 'chalk@^0.5.1',
+129 verbose parsed url   path: 'chalk@^0.5.1',
+129 verbose parsed url   href: 'chalk@^0.5.1' }
+130 verbose cache add name="chalk" spec="^0.5.1" args=["chalk","^0.5.1"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '^0.5.1',
+131 verbose parsed url   path: '^0.5.1',
+131 verbose parsed url   href: '^0.5.1' }
+132 verbose addNamed [ 'chalk', '^0.5.1' ]
+133 verbose addNamed [ null, '>=0.5.1-0 <0.6.0-0' ]
+134 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+135 verbose lock chalk@^0.5.1 /home/excalliburbd/.npm/24b6c7c3-chalk-0-5-1.lock
+136 silly addNameRange { name: 'chalk', range: '>=0.5.1-0 <0.6.0-0', hasData: false }
+137 silly gunzTarPerm extractEntry package.json
+138 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+139 silly gunzTarPerm extractEntry .npmignore
+140 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+141 silly gunzTarPerm extractEntry README.md
+142 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+143 silly gunzTarPerm extractEntry LICENSE
+144 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+145 silly gunzTarPerm extractEntry cli.js
+146 silly gunzTarPerm modified mode [ 'cli.js', 493, 509 ]
+147 silly gunzTarPerm extractEntry configure
+148 silly gunzTarPerm modified mode [ 'configure', 493, 509 ]
+149 silly gunzTarPerm extractEntry .tern-project
+150 silly gunzTarPerm modified mode [ '.tern-project', 420, 436 ]
+151 silly gunzTarPerm extractEntry .travis.yml
+152 silly gunzTarPerm modified mode [ '.travis.yml', 420, 436 ]
+153 silly gunzTarPerm extractEntry AUTHORS
+154 silly gunzTarPerm modified mode [ 'AUTHORS', 420, 436 ]
+155 silly gunzTarPerm extractEntry CHANGELOG.md
+156 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+157 verbose request where is /chalk
+158 verbose request registry https://registry.npmjs.org/
+159 verbose url raw /chalk
+160 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+161 verbose url resolved https://registry.npmjs.org/chalk
+162 verbose request where is https://registry.npmjs.org/chalk
+163 info trying registry request attempt 1 at 19:11:00
+164 verbose etag "730JLOBTXHSPLXUPBGLN40SGF"
+165 http GET https://registry.npmjs.org/chalk
+166 silly gunzTarPerm extractEntry CONTRIBUTING.md
+167 silly gunzTarPerm modified mode [ 'CONTRIBUTING.md', 420, 436 ]
+168 silly gunzTarPerm extractEntry .mailmap
+169 silly gunzTarPerm modified mode [ '.mailmap', 420, 436 ]
+170 silly gunzTarPerm extractEntry Makefile
+171 silly gunzTarPerm modified mode [ 'Makefile', 420, 436 ]
+172 silly gunzTarPerm extractEntry appveyor.yml
+173 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 436 ]
+174 silly gunzTarPerm extractEntry bin/npm-cli.js
+175 silly gunzTarPerm modified mode [ 'bin/npm-cli.js', 493, 509 ]
+176 silly gunzTarPerm extractEntry bin/read-package-json.js
+177 silly gunzTarPerm modified mode [ 'bin/read-package-json.js', 493, 509 ]
+178 silly gunzTarPerm extractEntry bin/node-gyp-bin/node-gyp
+179 silly gunzTarPerm modified mode [ 'bin/node-gyp-bin/node-gyp', 493, 509 ]
+180 silly gunzTarPerm extractEntry bin/node-gyp-bin/node-gyp.cmd
+181 silly gunzTarPerm modified mode [ 'bin/node-gyp-bin/node-gyp.cmd', 493, 509 ]
+182 silly gunzTarPerm extractEntry bin/npm
+183 silly gunzTarPerm modified mode [ 'bin/npm', 493, 509 ]
+184 silly gunzTarPerm extractEntry bin/npm.cmd
+185 silly gunzTarPerm modified mode [ 'bin/npm.cmd', 420, 436 ]
+186 silly gunzTarPerm extractEntry changelogs/CHANGELOG-1.md
+187 silly gunzTarPerm modified mode [ 'changelogs/CHANGELOG-1.md', 420, 436 ]
+188 silly gunzTarPerm extractEntry changelogs/CHANGELOG-2.md
+189 silly gunzTarPerm modified mode [ 'changelogs/CHANGELOG-2.md', 420, 436 ]
+190 silly gunzTarPerm extractEntry doc/cli/npm-pack.md
+191 silly gunzTarPerm modified mode [ 'doc/cli/npm-pack.md', 420, 436 ]
+192 silly gunzTarPerm extractEntry doc/cli/npm-access.md
+193 silly gunzTarPerm modified mode [ 'doc/cli/npm-access.md', 420, 436 ]
+194 silly gunzTarPerm extractEntry doc/cli/npm-bin.md
+195 silly gunzTarPerm modified mode [ 'doc/cli/npm-bin.md', 420, 436 ]
+196 silly gunzTarPerm extractEntry doc/cli/npm-bugs.md
+197 silly gunzTarPerm modified mode [ 'doc/cli/npm-bugs.md', 420, 436 ]
+198 silly gunzTarPerm extractEntry doc/cli/npm-build.md
+199 silly gunzTarPerm modified mode [ 'doc/cli/npm-build.md', 420, 436 ]
+200 silly gunzTarPerm extractEntry doc/cli/npm-bundle.md
+201 silly gunzTarPerm modified mode [ 'doc/cli/npm-bundle.md', 420, 436 ]
+202 silly gunzTarPerm extractEntry doc/cli/npm-cache.md
+203 silly gunzTarPerm modified mode [ 'doc/cli/npm-cache.md', 420, 436 ]
+204 silly gunzTarPerm extractEntry doc/cli/npm-completion.md
+205 silly gunzTarPerm modified mode [ 'doc/cli/npm-completion.md', 420, 436 ]
+206 silly gunzTarPerm extractEntry doc/cli/npm-config.md
+207 silly gunzTarPerm modified mode [ 'doc/cli/npm-config.md', 420, 436 ]
+208 silly gunzTarPerm extractEntry doc/cli/npm-dedupe.md
+209 silly gunzTarPerm modified mode [ 'doc/cli/npm-dedupe.md', 420, 436 ]
+210 silly gunzTarPerm extractEntry doc/cli/npm-deprecate.md
+211 silly gunzTarPerm modified mode [ 'doc/cli/npm-deprecate.md', 420, 436 ]
+212 silly gunzTarPerm extractEntry doc/cli/npm-dist-tag.md
+213 silly gunzTarPerm modified mode [ 'doc/cli/npm-dist-tag.md', 420, 436 ]
+214 silly gunzTarPerm extractEntry doc/cli/npm-docs.md
+215 silly gunzTarPerm modified mode [ 'doc/cli/npm-docs.md', 420, 436 ]
+216 silly gunzTarPerm extractEntry doc/cli/npm-edit.md
+217 silly gunzTarPerm modified mode [ 'doc/cli/npm-edit.md', 420, 436 ]
+218 silly gunzTarPerm extractEntry doc/cli/npm-explore.md
+219 silly gunzTarPerm modified mode [ 'doc/cli/npm-explore.md', 420, 436 ]
+220 silly gunzTarPerm extractEntry doc/cli/npm-help-search.md
+221 silly gunzTarPerm modified mode [ 'doc/cli/npm-help-search.md', 420, 436 ]
+222 silly gunzTarPerm extractEntry doc/cli/npm-help.md
+223 silly gunzTarPerm modified mode [ 'doc/cli/npm-help.md', 420, 436 ]
+224 silly gunzTarPerm extractEntry doc/cli/npm-init.md
+225 silly gunzTarPerm modified mode [ 'doc/cli/npm-init.md', 420, 436 ]
+226 silly gunzTarPerm extractEntry doc/cli/npm-install-test.md
+227 silly gunzTarPerm modified mode [ 'doc/cli/npm-install-test.md', 420, 436 ]
+228 silly gunzTarPerm extractEntry doc/cli/npm-install.md
+229 silly gunzTarPerm modified mode [ 'doc/cli/npm-install.md', 420, 436 ]
+230 silly gunzTarPerm extractEntry doc/cli/npm-link.md
+231 silly gunzTarPerm modified mode [ 'doc/cli/npm-link.md', 420, 436 ]
+232 silly gunzTarPerm extractEntry doc/cli/npm-logout.md
+233 silly gunzTarPerm modified mode [ 'doc/cli/npm-logout.md', 420, 436 ]
+234 silly gunzTarPerm extractEntry doc/cli/npm-ls.md
+235 silly gunzTarPerm modified mode [ 'doc/cli/npm-ls.md', 420, 436 ]
+236 silly gunzTarPerm extractEntry doc/cli/npm-outdated.md
+237 silly gunzTarPerm modified mode [ 'doc/cli/npm-outdated.md', 420, 436 ]
+238 silly gunzTarPerm extractEntry doc/cli/npm-owner.md
+239 silly gunzTarPerm modified mode [ 'doc/cli/npm-owner.md', 420, 436 ]
+240 silly gunzTarPerm extractEntry doc/cli/npm-adduser.md
+241 silly gunzTarPerm modified mode [ 'doc/cli/npm-adduser.md', 420, 436 ]
+242 silly gunzTarPerm extractEntry doc/cli/npm-ping.md
+243 silly gunzTarPerm modified mode [ 'doc/cli/npm-ping.md', 420, 436 ]
+244 silly gunzTarPerm extractEntry doc/cli/npm-prefix.md
+245 silly gunzTarPerm modified mode [ 'doc/cli/npm-prefix.md', 420, 436 ]
+246 silly gunzTarPerm extractEntry doc/cli/npm-prune.md
+247 silly gunzTarPerm modified mode [ 'doc/cli/npm-prune.md', 420, 436 ]
+248 silly gunzTarPerm extractEntry doc/cli/npm-publish.md
+249 silly gunzTarPerm modified mode [ 'doc/cli/npm-publish.md', 420, 436 ]
+250 silly gunzTarPerm extractEntry doc/cli/npm-rebuild.md
+251 silly gunzTarPerm modified mode [ 'doc/cli/npm-rebuild.md', 420, 436 ]
+252 silly gunzTarPerm extractEntry doc/cli/npm-repo.md
+253 silly gunzTarPerm modified mode [ 'doc/cli/npm-repo.md', 420, 436 ]
+254 silly gunzTarPerm extractEntry doc/cli/npm-restart.md
+255 silly gunzTarPerm modified mode [ 'doc/cli/npm-restart.md', 420, 436 ]
+256 silly gunzTarPerm extractEntry doc/cli/npm-root.md
+257 silly gunzTarPerm modified mode [ 'doc/cli/npm-root.md', 420, 436 ]
+258 silly gunzTarPerm extractEntry doc/cli/npm-run-script.md
+259 silly gunzTarPerm modified mode [ 'doc/cli/npm-run-script.md', 420, 436 ]
+260 silly gunzTarPerm extractEntry doc/cli/npm-search.md
+261 silly gunzTarPerm modified mode [ 'doc/cli/npm-search.md', 420, 436 ]
+262 silly gunzTarPerm extractEntry doc/cli/npm-shrinkwrap.md
+263 silly gunzTarPerm modified mode [ 'doc/cli/npm-shrinkwrap.md', 420, 436 ]
+264 silly gunzTarPerm extractEntry doc/cli/npm-star.md
+265 silly gunzTarPerm modified mode [ 'doc/cli/npm-star.md', 420, 436 ]
+266 silly gunzTarPerm extractEntry doc/cli/npm-stars.md
+267 silly gunzTarPerm modified mode [ 'doc/cli/npm-stars.md', 420, 436 ]
+268 silly gunzTarPerm extractEntry doc/cli/npm-start.md
+269 silly gunzTarPerm modified mode [ 'doc/cli/npm-start.md', 420, 436 ]
+270 silly gunzTarPerm extractEntry doc/cli/npm-stop.md
+271 silly gunzTarPerm modified mode [ 'doc/cli/npm-stop.md', 420, 436 ]
+272 silly gunzTarPerm extractEntry doc/cli/npm-tag.md
+273 silly gunzTarPerm modified mode [ 'doc/cli/npm-tag.md', 420, 436 ]
+274 silly gunzTarPerm extractEntry doc/cli/npm-team.md
+275 silly gunzTarPerm modified mode [ 'doc/cli/npm-team.md', 420, 436 ]
+276 silly gunzTarPerm extractEntry doc/cli/npm-test.md
+277 silly gunzTarPerm modified mode [ 'doc/cli/npm-test.md', 420, 436 ]
+278 silly gunzTarPerm extractEntry doc/cli/npm-uninstall.md
+279 silly gunzTarPerm modified mode [ 'doc/cli/npm-uninstall.md', 420, 436 ]
+280 silly gunzTarPerm extractEntry doc/cli/npm-unpublish.md
+281 silly gunzTarPerm modified mode [ 'doc/cli/npm-unpublish.md', 420, 436 ]
+282 silly gunzTarPerm extractEntry doc/cli/npm-update.md
+283 silly gunzTarPerm modified mode [ 'doc/cli/npm-update.md', 420, 436 ]
+284 silly gunzTarPerm extractEntry doc/cli/npm-version.md
+285 silly gunzTarPerm modified mode [ 'doc/cli/npm-version.md', 420, 436 ]
+286 silly gunzTarPerm extractEntry doc/cli/npm-view.md
+287 silly gunzTarPerm modified mode [ 'doc/cli/npm-view.md', 420, 436 ]
+288 silly gunzTarPerm extractEntry doc/cli/npm-whoami.md
+289 silly gunzTarPerm modified mode [ 'doc/cli/npm-whoami.md', 420, 436 ]
+290 silly gunzTarPerm extractEntry doc/cli/npm.md
+291 silly gunzTarPerm modified mode [ 'doc/cli/npm.md', 420, 436 ]
+292 silly gunzTarPerm extractEntry doc/files/npm-folders.md
+293 silly gunzTarPerm modified mode [ 'doc/files/npm-folders.md', 420, 436 ]
+294 silly gunzTarPerm extractEntry doc/files/npmrc.md
+295 silly gunzTarPerm modified mode [ 'doc/files/npmrc.md', 420, 436 ]
+296 silly gunzTarPerm extractEntry doc/files/package.json.md
+297 silly gunzTarPerm modified mode [ 'doc/files/package.json.md', 420, 436 ]
+298 silly gunzTarPerm extractEntry doc/misc/npm-orgs.md
+299 silly gunzTarPerm modified mode [ 'doc/misc/npm-orgs.md', 420, 436 ]
+300 silly gunzTarPerm extractEntry doc/misc/npm-coding-style.md
+301 silly gunzTarPerm modified mode [ 'doc/misc/npm-coding-style.md', 420, 436 ]
+302 silly gunzTarPerm extractEntry doc/misc/npm-developers.md
+303 silly gunzTarPerm modified mode [ 'doc/misc/npm-developers.md', 420, 436 ]
+304 silly gunzTarPerm extractEntry doc/misc/npm-disputes.md
+305 silly gunzTarPerm modified mode [ 'doc/misc/npm-disputes.md', 420, 436 ]
+306 silly gunzTarPerm extractEntry doc/misc/npm-index.md
+307 silly gunzTarPerm modified mode [ 'doc/misc/npm-index.md', 420, 436 ]
+308 silly gunzTarPerm extractEntry doc/misc/npm-config.md
+309 silly gunzTarPerm modified mode [ 'doc/misc/npm-config.md', 420, 436 ]
+310 silly gunzTarPerm extractEntry doc/misc/npm-registry.md
+311 silly gunzTarPerm modified mode [ 'doc/misc/npm-registry.md', 420, 436 ]
+312 silly gunzTarPerm extractEntry doc/misc/npm-scope.md
+313 silly gunzTarPerm modified mode [ 'doc/misc/npm-scope.md', 420, 436 ]
+314 silly gunzTarPerm extractEntry doc/misc/npm-scripts.md
+315 silly gunzTarPerm modified mode [ 'doc/misc/npm-scripts.md', 420, 436 ]
+316 silly gunzTarPerm extractEntry doc/misc/removing-npm.md
+317 silly gunzTarPerm modified mode [ 'doc/misc/removing-npm.md', 420, 436 ]
+318 silly gunzTarPerm extractEntry doc/misc/semver.md
+319 silly gunzTarPerm modified mode [ 'doc/misc/semver.md', 420, 436 ]
+320 silly gunzTarPerm extractEntry html/doc/README.html
+321 silly gunzTarPerm modified mode [ 'html/doc/README.html', 420, 436 ]
+322 silly gunzTarPerm extractEntry html/doc/cli/npm-pack.html
+323 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-pack.html', 420, 436 ]
+324 silly gunzTarPerm extractEntry html/doc/cli/npm-access.html
+325 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-access.html', 420, 436 ]
+326 silly gunzTarPerm extractEntry html/doc/cli/npm-bin.html
+327 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-bin.html', 420, 436 ]
+328 silly gunzTarPerm extractEntry html/doc/cli/npm-bugs.html
+329 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-bugs.html', 420, 436 ]
+330 silly gunzTarPerm extractEntry html/doc/cli/npm-build.html
+331 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-build.html', 420, 436 ]
+332 silly gunzTarPerm extractEntry html/doc/cli/npm-bundle.html
+333 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-bundle.html', 420, 436 ]
+334 silly gunzTarPerm extractEntry html/doc/cli/npm-cache.html
+335 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-cache.html', 420, 436 ]
+336 silly gunzTarPerm extractEntry html/doc/cli/npm-completion.html
+337 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-completion.html', 420, 436 ]
+338 silly gunzTarPerm extractEntry html/doc/cli/npm-config.html
+339 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-config.html', 420, 436 ]
+340 silly gunzTarPerm extractEntry html/doc/cli/npm-dedupe.html
+341 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-dedupe.html', 420, 436 ]
+342 silly gunzTarPerm extractEntry html/doc/cli/npm-deprecate.html
+343 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-deprecate.html', 420, 436 ]
+344 silly gunzTarPerm extractEntry html/doc/cli/npm-dist-tag.html
+345 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-dist-tag.html', 420, 436 ]
+346 silly gunzTarPerm extractEntry html/doc/cli/npm-docs.html
+347 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-docs.html', 420, 436 ]
+348 silly gunzTarPerm extractEntry html/doc/cli/npm-edit.html
+349 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-edit.html', 420, 436 ]
+350 silly gunzTarPerm extractEntry html/doc/cli/npm-explore.html
+351 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-explore.html', 420, 436 ]
+352 silly gunzTarPerm extractEntry html/doc/cli/npm-help-search.html
+353 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-help-search.html', 420, 436 ]
+354 silly gunzTarPerm extractEntry html/doc/cli/npm-help.html
+355 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-help.html', 420, 436 ]
+356 silly gunzTarPerm extractEntry html/doc/cli/npm-init.html
+357 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-init.html', 420, 436 ]
+358 silly gunzTarPerm extractEntry html/doc/cli/npm-install-test.html
+359 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-install-test.html', 420, 436 ]
+360 silly gunzTarPerm extractEntry html/doc/cli/npm-install.html
+361 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-install.html', 420, 436 ]
+362 silly gunzTarPerm extractEntry html/doc/cli/npm-link.html
+363 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-link.html', 420, 436 ]
+364 silly gunzTarPerm extractEntry html/doc/cli/npm-logout.html
+365 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-logout.html', 420, 436 ]
+366 silly gunzTarPerm extractEntry html/doc/cli/npm-ls.html
+367 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-ls.html', 420, 436 ]
+368 silly gunzTarPerm extractEntry html/doc/cli/npm-outdated.html
+369 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-outdated.html', 420, 436 ]
+370 silly gunzTarPerm extractEntry html/doc/cli/npm-owner.html
+371 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-owner.html', 420, 436 ]
+372 silly gunzTarPerm extractEntry html/doc/cli/npm-adduser.html
+373 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-adduser.html', 420, 436 ]
+374 http 304 https://registry.npmjs.org/chalk
+375 silly registry.get cb [ 304,
+375 silly registry.get   { date: 'Thu, 02 Jun 2016 13:11:00 GMT',
+375 silly registry.get     via: '1.1 varnish',
+375 silly registry.get     'cache-control': 'max-age=300',
+375 silly registry.get     etag: '"730JLOBTXHSPLXUPBGLN40SGF"',
+375 silly registry.get     age: '216',
+375 silly registry.get     connection: 'keep-alive',
+375 silly registry.get     'x-served-by': 'cache-sin6920-SIN',
+375 silly registry.get     'x-cache': 'HIT',
+375 silly registry.get     'x-cache-hits': '22',
+375 silly registry.get     'x-timer': 'S1464873060.849041,VS0,VE0',
+375 silly registry.get     vary: 'Accept-Encoding' } ]
+376 verbose etag https://registry.npmjs.org/chalk from cache
+377 silly addNameRange number 2 { name: 'chalk', range: '>=0.5.1-0 <0.6.0-0', hasData: true }
+378 silly addNameRange versions [ 'chalk',
+378 silly addNameRange   [ '0.1.0',
+378 silly addNameRange     '0.1.1',
+378 silly addNameRange     '0.2.0',
+378 silly addNameRange     '0.2.1',
+378 silly addNameRange     '0.3.0',
+378 silly addNameRange     '0.4.0',
+378 silly addNameRange     '0.5.0',
+378 silly addNameRange     '0.5.1',
+378 silly addNameRange     '1.0.0',
+378 silly addNameRange     '1.1.0',
+378 silly addNameRange     '1.1.1',
+378 silly addNameRange     '1.1.2',
+378 silly addNameRange     '1.1.3' ] ]
+379 verbose addNamed [ 'chalk', '0.5.1' ]
+380 verbose addNamed [ '0.5.1', '0.5.1' ]
+381 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+382 verbose lock chalk@0.5.1 /home/excalliburbd/.npm/c28973bb-chalk-0-5-1.lock
+383 silly gunzTarPerm extractEntry html/doc/cli/npm-ping.html
+384 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-ping.html', 420, 436 ]
+385 silly gunzTarPerm extractEntry html/doc/cli/npm-prefix.html
+386 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-prefix.html', 420, 436 ]
+387 silly gunzTarPerm extractEntry html/doc/cli/npm-prune.html
+388 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-prune.html', 420, 436 ]
+389 silly gunzTarPerm extractEntry html/doc/cli/npm-publish.html
+390 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-publish.html', 420, 436 ]
+391 silly gunzTarPerm extractEntry html/doc/cli/npm-rebuild.html
+392 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-rebuild.html', 420, 436 ]
+393 silly gunzTarPerm extractEntry html/doc/cli/npm-repo.html
+394 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-repo.html', 420, 436 ]
+395 silly gunzTarPerm extractEntry html/doc/cli/npm-restart.html
+396 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-restart.html', 420, 436 ]
+397 silly gunzTarPerm extractEntry html/doc/cli/npm-root.html
+398 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-root.html', 420, 436 ]
+399 silly gunzTarPerm extractEntry html/doc/cli/npm-run-script.html
+400 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-run-script.html', 420, 436 ]
+401 silly gunzTarPerm extractEntry html/doc/cli/npm-search.html
+402 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-search.html', 420, 436 ]
+403 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+404 silly lockFile c28973bb-chalk-0-5-1 chalk@0.5.1
+405 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+406 silly lockFile 24b6c7c3-chalk-0-5-1 chalk@^0.5.1
+407 silly gunzTarPerm extractEntry html/doc/cli/npm-shrinkwrap.html
+408 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-shrinkwrap.html', 420, 436 ]
+409 silly gunzTarPerm extractEntry html/doc/cli/npm-star.html
+410 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-star.html', 420, 436 ]
+411 silly gunzTarPerm extractEntry html/doc/cli/npm-stars.html
+412 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-stars.html', 420, 436 ]
+413 silly gunzTarPerm extractEntry html/doc/cli/npm-start.html
+414 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-start.html', 420, 436 ]
+415 silly gunzTarPerm extractEntry html/doc/cli/npm-stop.html
+416 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-stop.html', 420, 436 ]
+417 silly gunzTarPerm extractEntry html/doc/cli/npm-tag.html
+418 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-tag.html', 420, 436 ]
+419 silly gunzTarPerm extractEntry html/doc/cli/npm-team.html
+420 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-team.html', 420, 436 ]
+421 silly gunzTarPerm extractEntry html/doc/cli/npm-test.html
+422 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-test.html', 420, 436 ]
+423 silly gunzTarPerm extractEntry html/doc/cli/npm-uninstall.html
+424 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-uninstall.html', 420, 436 ]
+425 silly gunzTarPerm extractEntry html/doc/cli/npm-unpublish.html
+426 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-unpublish.html', 420, 436 ]
+427 silly gunzTarPerm extractEntry html/doc/cli/npm-update.html
+428 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-update.html', 420, 436 ]
+429 silly gunzTarPerm extractEntry html/doc/cli/npm-version.html
+430 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-version.html', 420, 436 ]
+431 silly resolved [ { name: 'chalk',
+431 silly resolved     version: '0.5.1',
+431 silly resolved     description: 'Terminal string styling done right. Created because the `colors` module does some really horrible things.',
+431 silly resolved     license: 'MIT',
+431 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/chalk' },
+431 silly resolved     maintainers: [ [Object], [Object] ],
+431 silly resolved     engines: { node: '>=0.10.0' },
+431 silly resolved     scripts: { test: 'mocha', bench: 'matcha benchmark.js' },
+431 silly resolved     files: [ 'index.js' ],
+431 silly resolved     keywords:
+431 silly resolved      [ 'color',
+431 silly resolved        'colour',
+431 silly resolved        'colors',
+431 silly resolved        'terminal',
+431 silly resolved        'console',
+431 silly resolved        'cli',
+431 silly resolved        'string',
+431 silly resolved        'ansi',
+431 silly resolved        'styles',
+431 silly resolved        'tty',
+431 silly resolved        'formatting',
+431 silly resolved        'rgb',
+431 silly resolved        '256',
+431 silly resolved        'shell',
+431 silly resolved        'xterm',
+431 silly resolved        'log',
+431 silly resolved        'logging',
+431 silly resolved        'command-line',
+431 silly resolved        'text' ],
+431 silly resolved     dependencies:
+431 silly resolved      { 'ansi-styles': '^1.1.0',
+431 silly resolved        'escape-string-regexp': '^1.0.0',
+431 silly resolved        'has-ansi': '^0.1.0',
+431 silly resolved        'strip-ansi': '^0.3.0',
+431 silly resolved        'supports-color': '^0.2.0' },
+431 silly resolved     devDependencies: { matcha: '^0.5.0', mocha: '*' },
+431 silly resolved     gitHead: '994758f01293f1fdcf63282e9917cb9f2cfbdaac',
+431 silly resolved     bugs: { url: 'https://github.com/sindresorhus/chalk/issues' },
+431 silly resolved     homepage: 'https://github.com/sindresorhus/chalk',
+431 silly resolved     _id: 'chalk@0.5.1',
+431 silly resolved     _shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+431 silly resolved     _from: 'chalk@^0.5.1',
+431 silly resolved     _npmVersion: '1.4.14',
+431 silly resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+431 silly resolved     dist:
+431 silly resolved      { shasum: '663b3a648b68b55d04690d49167aa837858f2174',
+431 silly resolved        tarball: 'https://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz' },
+431 silly resolved     directories: {},
+431 silly resolved     _resolved: 'https://registry.npmjs.org/chalk/-/chalk-0.5.1.tgz',
+431 silly resolved     readme: 'ERROR: No README data found!' } ]
+432 info install chalk@0.5.1 into /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra
+433 info installOne chalk@0.5.1
+434 verbose lib/node_modules/mantra/node_modules/chalk unbuild
+435 silly gunzTarPerm extractEntry html/doc/cli/npm-view.html
+436 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-view.html', 420, 436 ]
+437 silly gunzTarPerm extractEntry html/doc/cli/npm-whoami.html
+438 silly gunzTarPerm modified mode [ 'html/doc/cli/npm-whoami.html', 420, 436 ]
+439 verbose tar unpack /home/excalliburbd/.npm/chalk/0.5.1/package.tgz
+440 silly lockFile aa89a8d6-odules-mantra-node-modules-chalk tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+441 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk /home/excalliburbd/.npm/aa89a8d6-odules-mantra-node-modules-chalk.lock
+442 silly lockFile e243cee2-urbd-npm-chalk-0-5-1-package-tgz tar:///home/excalliburbd/.npm/chalk/0.5.1/package.tgz
+443 verbose lock tar:///home/excalliburbd/.npm/chalk/0.5.1/package.tgz /home/excalliburbd/.npm/e243cee2-urbd-npm-chalk-0-5-1-package-tgz.lock
+444 silly gunzTarPerm extractEntry html/doc/cli/npm.html
+445 silly gunzTarPerm modified mode [ 'html/doc/cli/npm.html', 420, 436 ]
+446 silly gunzTarPerm extractEntry html/doc/files/npm-folders.html
+447 silly gunzTarPerm modified mode [ 'html/doc/files/npm-folders.html', 420, 436 ]
+448 silly gunzTarPerm extractEntry html/doc/files/npm-global.html
+449 silly gunzTarPerm modified mode [ 'html/doc/files/npm-global.html', 420, 436 ]
+450 silly gunzTarPerm extractEntry html/doc/files/npm-json.html
+451 silly gunzTarPerm modified mode [ 'html/doc/files/npm-json.html', 420, 436 ]
+452 silly gunzTarPerm extractEntry html/doc/files/npmrc.html
+453 silly gunzTarPerm modified mode [ 'html/doc/files/npmrc.html', 420, 436 ]
+454 silly gunzTarPerm extractEntry html/doc/files/package.json.html
+455 silly gunzTarPerm modified mode [ 'html/doc/files/package.json.html', 420, 436 ]
+456 silly gunzTarPerm extractEntry html/doc/index.html
+457 silly gunzTarPerm modified mode [ 'html/doc/index.html', 420, 436 ]
+458 silly gunzTarPerm extractEntry html/doc/misc/npm-orgs.html
+459 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-orgs.html', 420, 436 ]
+460 silly gunzTarPerm extractEntry html/doc/misc/npm-coding-style.html
+461 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-coding-style.html', 420, 436 ]
+462 silly gunzTarPerm extractEntry html/doc/misc/npm-developers.html
+463 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-developers.html', 420, 436 ]
+464 silly gunzTarPerm extractEntry html/doc/misc/npm-disputes.html
+465 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-disputes.html', 420, 436 ]
+466 silly gunzTarPerm extractEntry html/doc/misc/npm-index.html
+467 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-index.html', 420, 436 ]
+468 silly gunzTarPerm modes [ '775', '664' ]
+469 silly gunzTarPerm extractEntry html/doc/misc/npm-config.html
+470 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-config.html', 420, 436 ]
+471 silly gunzTarPerm extractEntry html/doc/misc/npm-registry.html
+472 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-registry.html', 420, 436 ]
+473 silly gunzTarPerm extractEntry html/doc/misc/npm-scope.html
+474 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-scope.html', 420, 436 ]
+475 silly gunzTarPerm extractEntry html/doc/misc/npm-scripts.html
+476 silly gunzTarPerm modified mode [ 'html/doc/misc/npm-scripts.html', 420, 436 ]
+477 silly gunzTarPerm extractEntry html/doc/misc/removing-npm.html
+478 silly gunzTarPerm modified mode [ 'html/doc/misc/removing-npm.html', 420, 436 ]
+479 silly gunzTarPerm extractEntry package.json
+480 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+481 silly gunzTarPerm extractEntry index.js
+482 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+483 silly gunzTarPerm extractEntry readme.md
+484 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+485 silly gunzTarPerm extractEntry html/doc/misc/semver.html
+486 silly gunzTarPerm modified mode [ 'html/doc/misc/semver.html', 420, 436 ]
+487 silly gunzTarPerm extractEntry html/docfoot.html
+488 silly gunzTarPerm modified mode [ 'html/docfoot.html', 420, 436 ]
+489 silly gunzTarPerm extractEntry html/dochead.html
+490 silly gunzTarPerm modified mode [ 'html/dochead.html', 420, 436 ]
+491 silly gunzTarPerm extractEntry html/favicon.ico
+492 silly gunzTarPerm modified mode [ 'html/favicon.ico', 420, 436 ]
+493 silly gunzTarPerm extractEntry html/index.html
+494 silly gunzTarPerm modified mode [ 'html/index.html', 420, 436 ]
+495 silly gunzTarPerm extractEntry html/static/toc.js
+496 silly gunzTarPerm modified mode [ 'html/static/toc.js', 420, 436 ]
+497 silly gunzTarPerm extractEntry html/static/style.css
+498 silly gunzTarPerm modified mode [ 'html/static/style.css', 420, 436 ]
+499 silly gunzTarPerm extractEntry lib/access.js
+500 silly gunzTarPerm modified mode [ 'lib/access.js', 420, 436 ]
+501 silly gunzTarPerm extractEntry lib/link.js
+502 silly gunzTarPerm modified mode [ 'lib/link.js', 420, 436 ]
+503 silly gunzTarPerm extractEntry lib/logout.js
+504 silly gunzTarPerm modified mode [ 'lib/logout.js', 420, 436 ]
+505 silly lockFile aa89a8d6-odules-mantra-node-modules-chalk tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+506 silly lockFile aa89a8d6-odules-mantra-node-modules-chalk tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+507 silly lockFile e243cee2-urbd-npm-chalk-0-5-1-package-tgz tar:///home/excalliburbd/.npm/chalk/0.5.1/package.tgz
+508 silly lockFile e243cee2-urbd-npm-chalk-0-5-1-package-tgz tar:///home/excalliburbd/.npm/chalk/0.5.1/package.tgz
+509 silly gunzTarPerm extractEntry lib/ls.js
+510 silly gunzTarPerm modified mode [ 'lib/ls.js', 420, 436 ]
+511 silly gunzTarPerm extractEntry lib/install.js
+512 silly gunzTarPerm modified mode [ 'lib/install.js', 420, 436 ]
+513 info preinstall chalk@0.5.1
+514 verbose readDependencies using package.json deps
+515 verbose readDependencies using package.json deps
+516 verbose cache add [ 'ansi-styles@^1.1.0', null ]
+517 verbose cache add name=undefined spec="ansi-styles@^1.1.0" args=["ansi-styles@^1.1.0",null]
+518 verbose parsed url { protocol: null,
+518 verbose parsed url   slashes: null,
+518 verbose parsed url   auth: null,
+518 verbose parsed url   host: null,
+518 verbose parsed url   port: null,
+518 verbose parsed url   hostname: null,
+518 verbose parsed url   hash: null,
+518 verbose parsed url   search: null,
+518 verbose parsed url   query: null,
+518 verbose parsed url   pathname: 'ansi-styles@^1.1.0',
+518 verbose parsed url   path: 'ansi-styles@^1.1.0',
+518 verbose parsed url   href: 'ansi-styles@^1.1.0' }
+519 verbose cache add [ 'escape-string-regexp@^1.0.0', null ]
+520 verbose cache add name=undefined spec="escape-string-regexp@^1.0.0" args=["escape-string-regexp@^1.0.0",null]
+521 verbose parsed url { protocol: null,
+521 verbose parsed url   slashes: null,
+521 verbose parsed url   auth: null,
+521 verbose parsed url   host: null,
+521 verbose parsed url   port: null,
+521 verbose parsed url   hostname: null,
+521 verbose parsed url   hash: null,
+521 verbose parsed url   search: null,
+521 verbose parsed url   query: null,
+521 verbose parsed url   pathname: 'escape-string-regexp@^1.0.0',
+521 verbose parsed url   path: 'escape-string-regexp@^1.0.0',
+521 verbose parsed url   href: 'escape-string-regexp@^1.0.0' }
+522 verbose cache add name="ansi-styles" spec="^1.1.0" args=["ansi-styles","^1.1.0"]
+523 verbose parsed url { protocol: null,
+523 verbose parsed url   slashes: null,
+523 verbose parsed url   auth: null,
+523 verbose parsed url   host: null,
+523 verbose parsed url   port: null,
+523 verbose parsed url   hostname: null,
+523 verbose parsed url   hash: null,
+523 verbose parsed url   search: null,
+523 verbose parsed url   query: null,
+523 verbose parsed url   pathname: '^1.1.0',
+523 verbose parsed url   path: '^1.1.0',
+523 verbose parsed url   href: '^1.1.0' }
+524 verbose addNamed [ 'ansi-styles', '^1.1.0' ]
+525 verbose addNamed [ null, '>=1.1.0-0 <2.0.0-0' ]
+526 silly lockFile f531fbfe-ansi-styles-1-1-0 ansi-styles@^1.1.0
+527 verbose lock ansi-styles@^1.1.0 /home/excalliburbd/.npm/f531fbfe-ansi-styles-1-1-0.lock
+528 verbose cache add name="escape-string-regexp" spec="^1.0.0" args=["escape-string-regexp","^1.0.0"]
+529 verbose parsed url { protocol: null,
+529 verbose parsed url   slashes: null,
+529 verbose parsed url   auth: null,
+529 verbose parsed url   host: null,
+529 verbose parsed url   port: null,
+529 verbose parsed url   hostname: null,
+529 verbose parsed url   hash: null,
+529 verbose parsed url   search: null,
+529 verbose parsed url   query: null,
+529 verbose parsed url   pathname: '^1.0.0',
+529 verbose parsed url   path: '^1.0.0',
+529 verbose parsed url   href: '^1.0.0' }
+530 verbose addNamed [ 'escape-string-regexp', '^1.0.0' ]
+531 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+532 silly lockFile 9f5f1582-escape-string-regexp-1-0-0 escape-string-regexp@^1.0.0
+533 verbose lock escape-string-regexp@^1.0.0 /home/excalliburbd/.npm/9f5f1582-escape-string-regexp-1-0-0.lock
+534 verbose cache add [ 'has-ansi@^0.1.0', null ]
+535 verbose cache add name=undefined spec="has-ansi@^0.1.0" args=["has-ansi@^0.1.0",null]
+536 verbose parsed url { protocol: null,
+536 verbose parsed url   slashes: null,
+536 verbose parsed url   auth: null,
+536 verbose parsed url   host: null,
+536 verbose parsed url   port: null,
+536 verbose parsed url   hostname: null,
+536 verbose parsed url   hash: null,
+536 verbose parsed url   search: null,
+536 verbose parsed url   query: null,
+536 verbose parsed url   pathname: 'has-ansi@^0.1.0',
+536 verbose parsed url   path: 'has-ansi@^0.1.0',
+536 verbose parsed url   href: 'has-ansi@^0.1.0' }
+537 verbose cache add [ 'strip-ansi@^0.3.0', null ]
+538 verbose cache add name=undefined spec="strip-ansi@^0.3.0" args=["strip-ansi@^0.3.0",null]
+539 verbose parsed url { protocol: null,
+539 verbose parsed url   slashes: null,
+539 verbose parsed url   auth: null,
+539 verbose parsed url   host: null,
+539 verbose parsed url   port: null,
+539 verbose parsed url   hostname: null,
+539 verbose parsed url   hash: null,
+539 verbose parsed url   search: null,
+539 verbose parsed url   query: null,
+539 verbose parsed url   pathname: 'strip-ansi@^0.3.0',
+539 verbose parsed url   path: 'strip-ansi@^0.3.0',
+539 verbose parsed url   href: 'strip-ansi@^0.3.0' }
+540 verbose cache add [ 'supports-color@^0.2.0', null ]
+541 verbose cache add name=undefined spec="supports-color@^0.2.0" args=["supports-color@^0.2.0",null]
+542 verbose parsed url { protocol: null,
+542 verbose parsed url   slashes: null,
+542 verbose parsed url   auth: null,
+542 verbose parsed url   host: null,
+542 verbose parsed url   port: null,
+542 verbose parsed url   hostname: null,
+542 verbose parsed url   hash: null,
+542 verbose parsed url   search: null,
+542 verbose parsed url   query: null,
+542 verbose parsed url   pathname: 'supports-color@^0.2.0',
+542 verbose parsed url   path: 'supports-color@^0.2.0',
+542 verbose parsed url   href: 'supports-color@^0.2.0' }
+543 verbose cache add name="has-ansi" spec="^0.1.0" args=["has-ansi","^0.1.0"]
+544 verbose parsed url { protocol: null,
+544 verbose parsed url   slashes: null,
+544 verbose parsed url   auth: null,
+544 verbose parsed url   host: null,
+544 verbose parsed url   port: null,
+544 verbose parsed url   hostname: null,
+544 verbose parsed url   hash: null,
+544 verbose parsed url   search: null,
+544 verbose parsed url   query: null,
+544 verbose parsed url   pathname: '^0.1.0',
+544 verbose parsed url   path: '^0.1.0',
+544 verbose parsed url   href: '^0.1.0' }
+545 verbose addNamed [ 'has-ansi', '^0.1.0' ]
+546 verbose addNamed [ null, '>=0.1.0-0 <0.2.0-0' ]
+547 silly lockFile 67e902d7-has-ansi-0-1-0 has-ansi@^0.1.0
+548 verbose lock has-ansi@^0.1.0 /home/excalliburbd/.npm/67e902d7-has-ansi-0-1-0.lock
+549 verbose cache add name="strip-ansi" spec="^0.3.0" args=["strip-ansi","^0.3.0"]
+550 verbose parsed url { protocol: null,
+550 verbose parsed url   slashes: null,
+550 verbose parsed url   auth: null,
+550 verbose parsed url   host: null,
+550 verbose parsed url   port: null,
+550 verbose parsed url   hostname: null,
+550 verbose parsed url   hash: null,
+550 verbose parsed url   search: null,
+550 verbose parsed url   query: null,
+550 verbose parsed url   pathname: '^0.3.0',
+550 verbose parsed url   path: '^0.3.0',
+550 verbose parsed url   href: '^0.3.0' }
+551 verbose addNamed [ 'strip-ansi', '^0.3.0' ]
+552 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+553 silly lockFile 3a64cb31-strip-ansi-0-3-0 strip-ansi@^0.3.0
+554 verbose lock strip-ansi@^0.3.0 /home/excalliburbd/.npm/3a64cb31-strip-ansi-0-3-0.lock
+555 verbose cache add name="supports-color" spec="^0.2.0" args=["supports-color","^0.2.0"]
+556 verbose parsed url { protocol: null,
+556 verbose parsed url   slashes: null,
+556 verbose parsed url   auth: null,
+556 verbose parsed url   host: null,
+556 verbose parsed url   port: null,
+556 verbose parsed url   hostname: null,
+556 verbose parsed url   hash: null,
+556 verbose parsed url   search: null,
+556 verbose parsed url   query: null,
+556 verbose parsed url   pathname: '^0.2.0',
+556 verbose parsed url   path: '^0.2.0',
+556 verbose parsed url   href: '^0.2.0' }
+557 verbose addNamed [ 'supports-color', '^0.2.0' ]
+558 verbose addNamed [ null, '>=0.2.0-0 <0.3.0-0' ]
+559 silly lockFile e3aa172d-supports-color-0-2-0 supports-color@^0.2.0
+560 verbose lock supports-color@^0.2.0 /home/excalliburbd/.npm/e3aa172d-supports-color-0-2-0.lock
+561 silly addNameRange { name: 'ansi-styles',
+561 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+561 silly addNameRange   hasData: false }
+562 silly addNameRange { name: 'escape-string-regexp',
+562 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+562 silly addNameRange   hasData: false }
+563 silly addNameRange { name: 'has-ansi', range: '>=0.1.0-0 <0.2.0-0', hasData: false }
+564 silly addNameRange { name: 'strip-ansi',
+564 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+564 silly addNameRange   hasData: false }
+565 silly addNameRange { name: 'supports-color',
+565 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+565 silly addNameRange   hasData: false }
+566 silly gunzTarPerm extractEntry lib/outdated.js
+567 silly gunzTarPerm modified mode [ 'lib/outdated.js', 420, 436 ]
+568 silly gunzTarPerm extractEntry lib/owner.js
+569 silly gunzTarPerm modified mode [ 'lib/owner.js', 420, 436 ]
+570 verbose request where is /has-ansi
+571 verbose request registry https://registry.npmjs.org/
+572 verbose url raw /has-ansi
+573 verbose url resolving [ 'https://registry.npmjs.org/', './has-ansi' ]
+574 verbose url resolved https://registry.npmjs.org/has-ansi
+575 verbose request where is https://registry.npmjs.org/has-ansi
+576 info trying registry request attempt 1 at 19:11:01
+577 verbose etag "5BRJ6SWTFTG3PC77WJMU0S9MB"
+578 http GET https://registry.npmjs.org/has-ansi
+579 verbose request where is /escape-string-regexp
+580 verbose request registry https://registry.npmjs.org/
+581 verbose url raw /escape-string-regexp
+582 verbose url resolving [ 'https://registry.npmjs.org/', './escape-string-regexp' ]
+583 verbose url resolved https://registry.npmjs.org/escape-string-regexp
+584 verbose request where is https://registry.npmjs.org/escape-string-regexp
+585 info trying registry request attempt 1 at 19:11:01
+586 verbose etag "6KTGFS9RIPM29TUJQ6RDLQRVA"
+587 http GET https://registry.npmjs.org/escape-string-regexp
+588 verbose request where is /ansi-styles
+589 verbose request registry https://registry.npmjs.org/
+590 verbose url raw /ansi-styles
+591 verbose url resolving [ 'https://registry.npmjs.org/', './ansi-styles' ]
+592 verbose url resolved https://registry.npmjs.org/ansi-styles
+593 verbose request where is https://registry.npmjs.org/ansi-styles
+594 info trying registry request attempt 1 at 19:11:01
+595 verbose etag "2S43S9IH54YQSFIO0BL7CTRUF"
+596 http GET https://registry.npmjs.org/ansi-styles
+597 silly gunzTarPerm extractEntry lib/adduser.js
+598 silly gunzTarPerm modified mode [ 'lib/adduser.js', 420, 436 ]
+599 silly gunzTarPerm extractEntry lib/ping.js
+600 silly gunzTarPerm modified mode [ 'lib/ping.js', 420, 436 ]
+601 verbose request where is /supports-color
+602 verbose request registry https://registry.npmjs.org/
+603 verbose url raw /supports-color
+604 verbose url resolving [ 'https://registry.npmjs.org/', './supports-color' ]
+605 verbose url resolved https://registry.npmjs.org/supports-color
+606 verbose request where is https://registry.npmjs.org/supports-color
+607 info trying registry request attempt 1 at 19:11:01
+608 verbose etag "87VJAKWYUF4A2G4LCQKH55FZE"
+609 http GET https://registry.npmjs.org/supports-color
+610 verbose request where is /strip-ansi
+611 verbose request registry https://registry.npmjs.org/
+612 verbose url raw /strip-ansi
+613 verbose url resolving [ 'https://registry.npmjs.org/', './strip-ansi' ]
+614 verbose url resolved https://registry.npmjs.org/strip-ansi
+615 verbose request where is https://registry.npmjs.org/strip-ansi
+616 info trying registry request attempt 1 at 19:11:01
+617 verbose etag "B6TG8P0JRVWX1Y3QTWOIVFFNQ"
+618 http GET https://registry.npmjs.org/strip-ansi
+619 silly gunzTarPerm extractEntry lib/prefix.js
+620 silly gunzTarPerm modified mode [ 'lib/prefix.js', 420, 436 ]
+621 silly gunzTarPerm extractEntry lib/install-test.js
+622 silly gunzTarPerm modified mode [ 'lib/install-test.js', 420, 436 ]
+623 silly gunzTarPerm extractEntry lib/prune.js
+624 silly gunzTarPerm modified mode [ 'lib/prune.js', 420, 436 ]
+625 silly gunzTarPerm extractEntry lib/version.js
+626 silly gunzTarPerm modified mode [ 'lib/version.js', 420, 436 ]
+627 silly gunzTarPerm extractEntry lib/publish.js
+628 silly gunzTarPerm modified mode [ 'lib/publish.js', 420, 436 ]
+629 silly gunzTarPerm extractEntry lib/init.js
+630 silly gunzTarPerm modified mode [ 'lib/init.js', 420, 436 ]
+631 silly gunzTarPerm extractEntry lib/rebuild.js
+632 silly gunzTarPerm modified mode [ 'lib/rebuild.js', 420, 436 ]
+633 silly gunzTarPerm extractEntry lib/help.js
+634 silly gunzTarPerm modified mode [ 'lib/help.js', 420, 436 ]
+635 silly gunzTarPerm extractEntry lib/repo.js
+636 silly gunzTarPerm modified mode [ 'lib/repo.js', 420, 436 ]
+637 silly gunzTarPerm extractEntry lib/help-search.js
+638 silly gunzTarPerm modified mode [ 'lib/help-search.js', 420, 436 ]
+639 silly gunzTarPerm extractEntry lib/restart.js
+640 silly gunzTarPerm modified mode [ 'lib/restart.js', 420, 436 ]
+641 silly gunzTarPerm extractEntry lib/get.js
+642 silly gunzTarPerm modified mode [ 'lib/get.js', 420, 436 ]
+643 silly gunzTarPerm extractEntry lib/root.js
+644 silly gunzTarPerm modified mode [ 'lib/root.js', 420, 436 ]
+645 silly gunzTarPerm extractEntry lib/view.js
+646 silly gunzTarPerm modified mode [ 'lib/view.js', 420, 436 ]
+647 silly gunzTarPerm extractEntry lib/run-script.js
+648 silly gunzTarPerm modified mode [ 'lib/run-script.js', 420, 436 ]
+649 silly gunzTarPerm extractEntry lib/fetch-package-metadata.js
+650 silly gunzTarPerm modified mode [ 'lib/fetch-package-metadata.js', 420, 436 ]
+651 silly gunzTarPerm extractEntry lib/search.js
+652 silly gunzTarPerm modified mode [ 'lib/search.js', 420, 436 ]
+653 silly gunzTarPerm extractEntry lib/explore.js
+654 silly gunzTarPerm modified mode [ 'lib/explore.js', 420, 436 ]
+655 silly gunzTarPerm extractEntry lib/set.js
+656 silly gunzTarPerm modified mode [ 'lib/set.js', 420, 436 ]
+657 silly gunzTarPerm extractEntry lib/edit.js
+658 silly gunzTarPerm modified mode [ 'lib/edit.js', 420, 436 ]
+659 silly gunzTarPerm extractEntry lib/shrinkwrap.js
+660 silly gunzTarPerm modified mode [ 'lib/shrinkwrap.js', 420, 436 ]
+661 silly gunzTarPerm extractEntry lib/docs.js
+662 silly gunzTarPerm modified mode [ 'lib/docs.js', 420, 436 ]
+663 silly gunzTarPerm extractEntry lib/star.js
+664 silly gunzTarPerm modified mode [ 'lib/star.js', 420, 436 ]
+665 silly gunzTarPerm extractEntry lib/dist-tag.js
+666 silly gunzTarPerm modified mode [ 'lib/dist-tag.js', 420, 436 ]
+667 silly gunzTarPerm extractEntry lib/stars.js
+668 silly gunzTarPerm modified mode [ 'lib/stars.js', 420, 436 ]
+669 silly gunzTarPerm extractEntry lib/deprecate.js
+670 silly gunzTarPerm modified mode [ 'lib/deprecate.js', 420, 436 ]
+671 silly gunzTarPerm extractEntry lib/start.js
+672 silly gunzTarPerm modified mode [ 'lib/start.js', 420, 436 ]
+673 silly gunzTarPerm extractEntry lib/dedupe.js
+674 silly gunzTarPerm modified mode [ 'lib/dedupe.js', 420, 436 ]
+675 silly gunzTarPerm extractEntry lib/stop.js
+676 silly gunzTarPerm modified mode [ 'lib/stop.js', 420, 436 ]
+677 silly gunzTarPerm extractEntry lib/config.js
+678 silly gunzTarPerm modified mode [ 'lib/config.js', 420, 436 ]
+679 silly gunzTarPerm extractEntry lib/substack.js
+680 silly gunzTarPerm modified mode [ 'lib/substack.js', 420, 436 ]
+681 silly gunzTarPerm extractEntry lib/visnup.js
+682 silly gunzTarPerm modified mode [ 'lib/visnup.js', 420, 436 ]
+683 silly gunzTarPerm extractEntry lib/tag.js
+684 silly gunzTarPerm modified mode [ 'lib/tag.js', 420, 436 ]
+685 silly gunzTarPerm extractEntry lib/completion.js
+686 silly gunzTarPerm modified mode [ 'lib/completion.js', 420, 436 ]
+687 silly gunzTarPerm extractEntry lib/team.js
+688 silly gunzTarPerm modified mode [ 'lib/team.js', 420, 436 ]
+689 silly gunzTarPerm extractEntry lib/cache.js
+690 silly gunzTarPerm modified mode [ 'lib/cache.js', 420, 436 ]
+691 silly gunzTarPerm extractEntry lib/test.js
+692 silly gunzTarPerm modified mode [ 'lib/test.js', 420, 436 ]
+693 silly gunzTarPerm extractEntry lib/whoami.js
+694 silly gunzTarPerm modified mode [ 'lib/whoami.js', 420, 436 ]
+695 silly gunzTarPerm extractEntry lib/unbuild.js
+696 silly gunzTarPerm modified mode [ 'lib/unbuild.js', 420, 436 ]
+697 silly gunzTarPerm extractEntry lib/build.js
+698 silly gunzTarPerm modified mode [ 'lib/build.js', 420, 436 ]
+699 silly gunzTarPerm extractEntry lib/uninstall.js
+700 silly gunzTarPerm modified mode [ 'lib/uninstall.js', 420, 436 ]
+701 silly gunzTarPerm extractEntry lib/bugs.js
+702 silly gunzTarPerm modified mode [ 'lib/bugs.js', 420, 436 ]
+703 silly gunzTarPerm extractEntry lib/unpublish.js
+704 silly gunzTarPerm modified mode [ 'lib/unpublish.js', 420, 436 ]
+705 silly gunzTarPerm extractEntry lib/bin.js
+706 silly gunzTarPerm modified mode [ 'lib/bin.js', 420, 436 ]
+707 silly gunzTarPerm extractEntry lib/update.js
+708 silly gunzTarPerm modified mode [ 'lib/update.js', 420, 436 ]
+709 silly gunzTarPerm extractEntry lib/npm.js
+710 silly gunzTarPerm modified mode [ 'lib/npm.js', 420, 436 ]
+711 silly gunzTarPerm extractEntry lib/xmas.js
+712 silly gunzTarPerm modified mode [ 'lib/xmas.js', 420, 436 ]
+713 silly gunzTarPerm extractEntry lib/pack.js
+714 silly gunzTarPerm modified mode [ 'lib/pack.js', 420, 436 ]
+715 silly gunzTarPerm extractEntry lib/utils/child-path.js
+716 silly gunzTarPerm modified mode [ 'lib/utils/child-path.js', 420, 436 ]
+717 silly gunzTarPerm extractEntry lib/utils/git.js
+718 silly gunzTarPerm modified mode [ 'lib/utils/git.js', 420, 436 ]
+719 silly gunzTarPerm extractEntry lib/utils/is-windows-bash.js
+720 silly gunzTarPerm modified mode [ 'lib/utils/is-windows-bash.js', 420, 436 ]
+721 silly gunzTarPerm extractEntry lib/utils/is-windows-shell.js
+722 silly gunzTarPerm modified mode [ 'lib/utils/is-windows-shell.js', 420, 436 ]
+723 silly gunzTarPerm extractEntry lib/utils/get-publish-config.js
+724 silly gunzTarPerm modified mode [ 'lib/utils/get-publish-config.js', 420, 436 ]
+725 silly gunzTarPerm extractEntry lib/utils/umask.js
+726 silly gunzTarPerm modified mode [ 'lib/utils/umask.js', 420, 436 ]
+727 silly gunzTarPerm extractEntry lib/utils/link.js
+728 silly gunzTarPerm modified mode [ 'lib/utils/link.js', 420, 436 ]
+729 silly gunzTarPerm extractEntry lib/utils/locker.js
+730 silly gunzTarPerm modified mode [ 'lib/utils/locker.js', 420, 436 ]
+731 silly gunzTarPerm extractEntry lib/utils/map-to-registry.js
+732 silly gunzTarPerm modified mode [ 'lib/utils/map-to-registry.js', 420, 436 ]
+733 silly gunzTarPerm extractEntry lib/utils/module-name.js
+734 silly gunzTarPerm modified mode [ 'lib/utils/module-name.js', 420, 436 ]
+735 silly gunzTarPerm extractEntry lib/utils/gently-rm.js
+736 silly gunzTarPerm modified mode [ 'lib/utils/gently-rm.js', 420, 436 ]
+737 silly gunzTarPerm extractEntry lib/utils/package-id.js
+738 silly gunzTarPerm modified mode [ 'lib/utils/package-id.js', 420, 436 ]
+739 silly gunzTarPerm extractEntry lib/utils/escape-exec-path.js
+740 silly gunzTarPerm modified mode [ 'lib/utils/escape-exec-path.js', 420, 436 ]
+741 silly gunzTarPerm extractEntry lib/utils/parse-json.js
+742 silly gunzTarPerm modified mode [ 'lib/utils/parse-json.js', 420, 436 ]
+743 silly gunzTarPerm extractEntry lib/utils/escape-arg.js
+744 silly gunzTarPerm modified mode [ 'lib/utils/escape-arg.js', 420, 436 ]
+745 silly gunzTarPerm extractEntry lib/utils/pulse-till-done.js
+746 silly gunzTarPerm modified mode [ 'lib/utils/pulse-till-done.js', 420, 436 ]
+747 silly gunzTarPerm extractEntry lib/utils/error-message.js
+748 silly gunzTarPerm modified mode [ 'lib/utils/error-message.js', 420, 436 ]
+749 silly gunzTarPerm extractEntry lib/utils/read-local-package.js
+750 silly gunzTarPerm modified mode [ 'lib/utils/read-local-package.js', 420, 436 ]
+751 silly gunzTarPerm extractEntry lib/utils/error-handler.js
+752 silly gunzTarPerm modified mode [ 'lib/utils/error-handler.js', 420, 436 ]
+753 silly gunzTarPerm extractEntry lib/utils/rename.js
+754 silly gunzTarPerm modified mode [ 'lib/utils/rename.js', 420, 436 ]
+755 silly gunzTarPerm extractEntry lib/utils/depr-check.js
+756 silly gunzTarPerm modified mode [ 'lib/utils/depr-check.js', 420, 436 ]
+757 silly gunzTarPerm extractEntry lib/utils/save-stack.js
+758 silly gunzTarPerm modified mode [ 'lib/utils/save-stack.js', 420, 436 ]
+759 silly gunzTarPerm extractEntry lib/utils/deep-sort-object.js
+760 silly gunzTarPerm modified mode [ 'lib/utils/deep-sort-object.js', 420, 436 ]
+761 silly gunzTarPerm extractEntry lib/utils/spawn.js
+762 silly gunzTarPerm modified mode [ 'lib/utils/spawn.js', 420, 436 ]
+763 silly gunzTarPerm extractEntry lib/utils/correct-mkdir.js
+764 silly gunzTarPerm modified mode [ 'lib/utils/correct-mkdir.js', 420, 436 ]
+765 silly gunzTarPerm extractEntry lib/utils/tar.js
+766 silly gunzTarPerm modified mode [ 'lib/utils/tar.js', 420, 436 ]
+767 silly gunzTarPerm extractEntry lib/utils/usage.js
+768 silly gunzTarPerm modified mode [ 'lib/utils/usage.js', 420, 436 ]
+769 silly gunzTarPerm extractEntry lib/utils/temp-filename.js
+770 silly gunzTarPerm modified mode [ 'lib/utils/temp-filename.js', 420, 436 ]
+771 silly gunzTarPerm extractEntry lib/utils/is-windows.js
+772 silly gunzTarPerm modified mode [ 'lib/utils/is-windows.js', 420, 436 ]
+773 silly gunzTarPerm extractEntry lib/utils/warn-deprecated.js
+774 silly gunzTarPerm modified mode [ 'lib/utils/warn-deprecated.js', 420, 436 ]
+775 silly gunzTarPerm extractEntry lib/utils/lifecycle.js
+776 silly gunzTarPerm modified mode [ 'lib/utils/lifecycle.js', 420, 436 ]
+777 silly gunzTarPerm extractEntry lib/utils/completion/file-completion.js
+778 silly gunzTarPerm modified mode [ 'lib/utils/completion/file-completion.js', 420, 436 ]
+779 silly gunzTarPerm extractEntry lib/utils/completion/installed-deep.js
+780 silly gunzTarPerm modified mode [ 'lib/utils/completion/installed-deep.js', 420, 436 ]
+781 silly gunzTarPerm extractEntry lib/utils/completion/installed-shallow.js
+782 silly gunzTarPerm modified mode [ 'lib/utils/completion/installed-shallow.js', 420, 436 ]
+783 silly gunzTarPerm extractEntry lib/utils/completion.sh
+784 silly gunzTarPerm modified mode [ 'lib/utils/completion.sh', 493, 509 ]
+785 silly gunzTarPerm extractEntry lib/install/access-error.js
+786 silly gunzTarPerm modified mode [ 'lib/install/access-error.js', 420, 436 ]
+787 silly gunzTarPerm extractEntry lib/install/deps.js
+788 silly gunzTarPerm modified mode [ 'lib/install/deps.js', 420, 436 ]
+789 silly gunzTarPerm extractEntry lib/install/diff-trees.js
+790 silly gunzTarPerm modified mode [ 'lib/install/diff-trees.js', 420, 436 ]
+791 silly gunzTarPerm extractEntry lib/install/exists.js
+792 silly gunzTarPerm modified mode [ 'lib/install/exists.js', 420, 436 ]
+793 silly gunzTarPerm extractEntry lib/install/filter-invalid-actions.js
+794 silly gunzTarPerm modified mode [ 'lib/install/filter-invalid-actions.js', 420, 436 ]
+795 silly gunzTarPerm extractEntry lib/install/decompose-actions.js
+796 silly gunzTarPerm modified mode [ 'lib/install/decompose-actions.js', 420, 436 ]
+797 silly gunzTarPerm extractEntry lib/install/inflate-bundled.js
+798 silly gunzTarPerm modified mode [ 'lib/install/inflate-bundled.js', 420, 436 ]
+799 silly gunzTarPerm extractEntry lib/install/inflate-shrinkwrap.js
+800 silly gunzTarPerm modified mode [ 'lib/install/inflate-shrinkwrap.js', 420, 436 ]
+801 silly gunzTarPerm extractEntry lib/install/is-dev.js
+802 silly gunzTarPerm modified mode [ 'lib/install/is-dev.js', 420, 436 ]
+803 silly gunzTarPerm extractEntry lib/install/is-extraneous.js
+804 silly gunzTarPerm modified mode [ 'lib/install/is-extraneous.js', 420, 436 ]
+805 silly gunzTarPerm extractEntry lib/install/is-fs-access-available.js
+806 silly gunzTarPerm modified mode [ 'lib/install/is-fs-access-available.js', 420, 436 ]
+807 silly gunzTarPerm extractEntry lib/install/copy-tree.js
+808 silly gunzTarPerm modified mode [ 'lib/install/copy-tree.js', 420, 436 ]
+809 silly gunzTarPerm extractEntry lib/install/mutate-into-logical-tree.js
+810 silly gunzTarPerm modified mode [ 'lib/install/mutate-into-logical-tree.js', 420, 436 ]
+811 silly gunzTarPerm extractEntry lib/install/check-permissions.js
+812 silly gunzTarPerm modified mode [ 'lib/install/check-permissions.js', 420, 436 ]
+813 silly gunzTarPerm extractEntry lib/install/node.js
+814 silly gunzTarPerm modified mode [ 'lib/install/node.js', 420, 436 ]
+815 silly gunzTarPerm extractEntry lib/install/build-path.js
+816 silly gunzTarPerm modified mode [ 'lib/install/build-path.js', 420, 436 ]
+817 silly gunzTarPerm extractEntry lib/install/prune-tree.js
+818 silly gunzTarPerm modified mode [ 'lib/install/prune-tree.js', 420, 436 ]
+819 silly gunzTarPerm extractEntry lib/install/and-ignore-errors.js
+820 silly gunzTarPerm modified mode [ 'lib/install/and-ignore-errors.js', 420, 436 ]
+821 silly gunzTarPerm extractEntry lib/install/read-shrinkwrap.js
+822 silly gunzTarPerm modified mode [ 'lib/install/read-shrinkwrap.js', 420, 436 ]
+823 silly gunzTarPerm extractEntry lib/install/and-finish-tracker.js
+824 silly gunzTarPerm modified mode [ 'lib/install/and-finish-tracker.js', 420, 436 ]
+825 silly gunzTarPerm extractEntry lib/install/save.js
+826 silly gunzTarPerm modified mode [ 'lib/install/save.js', 420, 436 ]
+827 silly gunzTarPerm extractEntry lib/install/and-add-parent-to-errors.js
+828 silly gunzTarPerm modified mode [ 'lib/install/and-add-parent-to-errors.js', 420, 436 ]
+829 silly gunzTarPerm extractEntry lib/install/update-package-json.js
+830 silly gunzTarPerm modified mode [ 'lib/install/update-package-json.js', 420, 436 ]
+831 silly gunzTarPerm extractEntry lib/install/actions.js
+832 silly gunzTarPerm modified mode [ 'lib/install/actions.js', 420, 436 ]
+833 silly gunzTarPerm extractEntry lib/install/validate-args.js
+834 silly gunzTarPerm modified mode [ 'lib/install/validate-args.js', 420, 436 ]
+835 silly gunzTarPerm extractEntry lib/install/validate-tree.js
+836 silly gunzTarPerm modified mode [ 'lib/install/validate-tree.js', 420, 436 ]
+837 silly gunzTarPerm extractEntry lib/install/writable.js
+838 silly gunzTarPerm modified mode [ 'lib/install/writable.js', 420, 436 ]
+839 silly gunzTarPerm extractEntry lib/install/flatten-tree.js
+840 silly gunzTarPerm modified mode [ 'lib/install/flatten-tree.js', 420, 436 ]
+841 silly gunzTarPerm extractEntry lib/install/action/build.js
+842 silly gunzTarPerm modified mode [ 'lib/install/action/build.js', 420, 436 ]
+843 silly gunzTarPerm extractEntry lib/install/action/finalize.js
+844 silly gunzTarPerm modified mode [ 'lib/install/action/finalize.js', 420, 436 ]
+845 http 304 https://registry.npmjs.org/strip-ansi
+846 silly registry.get cb [ 304,
+846 silly registry.get   { date: 'Thu, 02 Jun 2016 13:11:01 GMT',
+846 silly registry.get     via: '1.1 varnish',
+846 silly registry.get     'cache-control': 'max-age=300',
+846 silly registry.get     etag: '"B6TG8P0JRVWX1Y3QTWOIVFFNQ"',
+846 silly registry.get     age: '184',
+846 silly registry.get     connection: 'keep-alive',
+846 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+846 silly registry.get     'x-cache': 'HIT',
+846 silly registry.get     'x-cache-hits': '25',
+846 silly registry.get     'x-timer': 'S1464873061.713876,VS0,VE0',
+846 silly registry.get     vary: 'Accept-Encoding' } ]
+847 verbose etag https://registry.npmjs.org/strip-ansi from cache
+848 http 304 https://registry.npmjs.org/supports-color
+849 silly registry.get cb [ 304,
+849 silly registry.get   { date: 'Thu, 02 Jun 2016 13:11:01 GMT',
+849 silly registry.get     via: '1.1 varnish',
+849 silly registry.get     'cache-control': 'max-age=300',
+849 silly registry.get     etag: '"87VJAKWYUF4A2G4LCQKH55FZE"',
+849 silly registry.get     age: '40',
+849 silly registry.get     connection: 'keep-alive',
+849 silly registry.get     'x-served-by': 'cache-sin6925-SIN',
+849 silly registry.get     'x-cache': 'HIT',
+849 silly registry.get     'x-cache-hits': '5',
+849 silly registry.get     'x-timer': 'S1464873061.715370,VS0,VE0',
+849 silly registry.get     vary: 'Accept-Encoding' } ]
+850 verbose etag https://registry.npmjs.org/supports-color from cache
+851 silly addNameRange number 2 { name: 'strip-ansi',
+851 silly addNameRange   range: '>=0.3.0-0 <0.4.0-0',
+851 silly addNameRange   hasData: true }
+852 silly addNameRange versions [ 'strip-ansi',
+852 silly addNameRange   [ '0.1.0',
+852 silly addNameRange     '0.1.1',
+852 silly addNameRange     '0.2.0',
+852 silly addNameRange     '0.2.1',
+852 silly addNameRange     '0.2.2',
+852 silly addNameRange     '0.3.0',
+852 silly addNameRange     '1.0.0',
+852 silly addNameRange     '2.0.0',
+852 silly addNameRange     '2.0.1',
+852 silly addNameRange     '3.0.0',
+852 silly addNameRange     '3.0.1' ] ]
+853 verbose addNamed [ 'strip-ansi', '0.3.0' ]
+854 verbose addNamed [ '0.3.0', '0.3.0' ]
+855 silly lockFile 9d6f190c-strip-ansi-0-3-0 strip-ansi@0.3.0
+856 verbose lock strip-ansi@0.3.0 /home/excalliburbd/.npm/9d6f190c-strip-ansi-0-3-0.lock
+857 silly addNameRange number 2 { name: 'supports-color',
+857 silly addNameRange   range: '>=0.2.0-0 <0.3.0-0',
+857 silly addNameRange   hasData: true }
+858 silly addNameRange versions [ 'supports-color',
+858 silly addNameRange   [ '0.2.0',
+858 silly addNameRange     '1.0.0',
+858 silly addNameRange     '1.1.0',
+858 silly addNameRange     '1.2.0',
+858 silly addNameRange     '1.2.1',
+858 silly addNameRange     '1.3.0',
+858 silly addNameRange     '1.3.1',
+858 silly addNameRange     '2.0.0',
+858 silly addNameRange     '3.0.0',
+858 silly addNameRange     '3.0.1',
+858 silly addNameRange     '3.1.0',
+858 silly addNameRange     '3.1.1',
+858 silly addNameRange     '3.1.2' ] ]
+859 verbose addNamed [ 'supports-color', '0.2.0' ]
+860 verbose addNamed [ '0.2.0', '0.2.0' ]
+861 silly lockFile bafa6883-supports-color-0-2-0 supports-color@0.2.0
+862 verbose lock supports-color@0.2.0 /home/excalliburbd/.npm/bafa6883-supports-color-0-2-0.lock
+863 silly gunzTarPerm extractEntry lib/install/action/global-install.js
+864 silly gunzTarPerm modified mode [ 'lib/install/action/global-install.js', 420, 436 ]
+865 silly gunzTarPerm extractEntry lib/install/action/global-link.js
+866 silly gunzTarPerm modified mode [ 'lib/install/action/global-link.js', 420, 436 ]
+867 silly gunzTarPerm extractEntry lib/install/action/install.js
+868 silly gunzTarPerm modified mode [ 'lib/install/action/install.js', 420, 436 ]
+869 silly gunzTarPerm extractEntry lib/install/action/fetch.js
+870 silly gunzTarPerm modified mode [ 'lib/install/action/fetch.js', 420, 436 ]
+871 silly gunzTarPerm extractEntry lib/install/action/postinstall.js
+872 silly gunzTarPerm modified mode [ 'lib/install/action/postinstall.js', 420, 436 ]
+873 silly gunzTarPerm extractEntry lib/install/action/preinstall.js
+874 silly gunzTarPerm modified mode [ 'lib/install/action/preinstall.js', 420, 436 ]
+875 silly gunzTarPerm extractEntry lib/install/action/prepublish.js
+876 silly gunzTarPerm modified mode [ 'lib/install/action/prepublish.js', 420, 436 ]
+877 silly gunzTarPerm extractEntry lib/install/action/remove.js
+878 silly gunzTarPerm modified mode [ 'lib/install/action/remove.js', 420, 436 ]
+879 silly gunzTarPerm extractEntry lib/install/action/test.js
+880 silly gunzTarPerm modified mode [ 'lib/install/action/test.js', 420, 436 ]
+881 silly gunzTarPerm extractEntry lib/install/action/extract.js
+882 silly gunzTarPerm modified mode [ 'lib/install/action/extract.js', 420, 436 ]
+883 silly gunzTarPerm extractEntry lib/install/action/update-linked.js
+884 silly gunzTarPerm modified mode [ 'lib/install/action/update-linked.js', 420, 436 ]
+885 silly gunzTarPerm extractEntry lib/install/action/move.js
+886 silly gunzTarPerm modified mode [ 'lib/install/action/move.js', 420, 436 ]
+887 silly gunzTarPerm extractEntry lib/fetch-package-metadata.md
+888 silly gunzTarPerm modified mode [ 'lib/fetch-package-metadata.md', 420, 436 ]
+889 silly gunzTarPerm extractEntry lib/config/clear-credentials-by-uri.js
+890 silly gunzTarPerm modified mode [ 'lib/config/clear-credentials-by-uri.js', 420, 436 ]
+891 silly gunzTarPerm extractEntry lib/config/core.js
+892 silly gunzTarPerm modified mode [ 'lib/config/core.js', 420, 436 ]
+893 silly gunzTarPerm extractEntry lib/config/defaults.js
+894 silly gunzTarPerm modified mode [ 'lib/config/defaults.js', 420, 436 ]
+895 silly gunzTarPerm extractEntry lib/config/find-prefix.js
+896 silly gunzTarPerm modified mode [ 'lib/config/find-prefix.js', 420, 436 ]
+897 silly gunzTarPerm extractEntry lib/config/get-credentials-by-uri.js
+898 silly gunzTarPerm modified mode [ 'lib/config/get-credentials-by-uri.js', 420, 436 ]
+899 silly gunzTarPerm extractEntry lib/config/cmd-list.js
+900 silly gunzTarPerm modified mode [ 'lib/config/cmd-list.js', 420, 436 ]
+901 silly gunzTarPerm extractEntry lib/config/load-prefix.js
+902 silly gunzTarPerm modified mode [ 'lib/config/load-prefix.js', 420, 436 ]
+903 silly gunzTarPerm extractEntry lib/config/load-uid.js
+904 silly gunzTarPerm modified mode [ 'lib/config/load-uid.js', 420, 436 ]
+905 silly gunzTarPerm extractEntry lib/config/nerf-dart.js
+906 silly gunzTarPerm modified mode [ 'lib/config/nerf-dart.js', 420, 436 ]
+907 silly gunzTarPerm extractEntry lib/config/set-credentials-by-uri.js
+908 silly gunzTarPerm modified mode [ 'lib/config/set-credentials-by-uri.js', 420, 436 ]
+909 silly gunzTarPerm extractEntry lib/config/set-user.js
+910 silly gunzTarPerm modified mode [ 'lib/config/set-user.js', 420, 436 ]
+911 http 304 https://registry.npmjs.org/ansi-styles
+912 silly registry.get cb [ 304,
+912 silly registry.get   { date: 'Thu, 02 Jun 2016 13:11:01 GMT',
+912 silly registry.get     via: '1.1 varnish',
+912 silly registry.get     'cache-control': 'max-age=300',
+912 silly registry.get     etag: '"2S43S9IH54YQSFIO0BL7CTRUF"',
+912 silly registry.get     age: '178',
+912 silly registry.get     connection: 'keep-alive',
+912 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+912 silly registry.get     'x-cache': 'HIT',
+912 silly registry.get     'x-cache-hits': '12',
+912 silly registry.get     'x-timer': 'S1464873061.863415,VS0,VE0',
+912 silly registry.get     vary: 'Accept-Encoding' } ]
+913 verbose etag https://registry.npmjs.org/ansi-styles from cache
+914 http 304 https://registry.npmjs.org/has-ansi
+915 silly registry.get cb [ 304,
+915 silly registry.get   { date: 'Thu, 02 Jun 2016 13:11:01 GMT',
+915 silly registry.get     via: '1.1 varnish',
+915 silly registry.get     'cache-control': 'max-age=300',
+915 silly registry.get     etag: '"5BRJ6SWTFTG3PC77WJMU0S9MB"',
+915 silly registry.get     age: '216',
+915 silly registry.get     connection: 'keep-alive',
+915 silly registry.get     'x-served-by': 'cache-sin6924-SIN',
+915 silly registry.get     'x-cache': 'HIT',
+915 silly registry.get     'x-cache-hits': '131',
+915 silly registry.get     'x-timer': 'S1464873061.861508,VS0,VE0',
+915 silly registry.get     vary: 'Accept-Encoding' } ]
+916 verbose etag https://registry.npmjs.org/has-ansi from cache
+917 silly addNameRange number 2 { name: 'ansi-styles',
+917 silly addNameRange   range: '>=1.1.0-0 <2.0.0-0',
+917 silly addNameRange   hasData: true }
+918 silly addNameRange versions [ 'ansi-styles',
+918 silly addNameRange   [ '0.1.0',
+918 silly addNameRange     '0.1.1',
+918 silly addNameRange     '0.1.2',
+918 silly addNameRange     '0.2.0',
+918 silly addNameRange     '1.0.0',
+918 silly addNameRange     '1.1.0',
+918 silly addNameRange     '2.0.0',
+918 silly addNameRange     '2.0.1',
+918 silly addNameRange     '2.1.0',
+918 silly addNameRange     '2.2.1' ] ]
+919 verbose addNamed [ 'ansi-styles', '1.1.0' ]
+920 verbose addNamed [ '1.1.0', '1.1.0' ]
+921 silly lockFile a78e767e-ansi-styles-1-1-0 ansi-styles@1.1.0
+922 verbose lock ansi-styles@1.1.0 /home/excalliburbd/.npm/a78e767e-ansi-styles-1-1-0.lock
+923 silly addNameRange number 2 { name: 'has-ansi', range: '>=0.1.0-0 <0.2.0-0', hasData: true }
+924 silly addNameRange versions [ 'has-ansi',
+924 silly addNameRange   [ '0.1.0', '1.0.0', '1.0.1', '1.0.2', '1.0.3', '2.0.0' ] ]
+925 verbose addNamed [ 'has-ansi', '0.1.0' ]
+926 verbose addNamed [ '0.1.0', '0.1.0' ]
+927 silly lockFile dfbb87ff-has-ansi-0-1-0 has-ansi@0.1.0
+928 verbose lock has-ansi@0.1.0 /home/excalliburbd/.npm/dfbb87ff-has-ansi-0-1-0.lock
+929 silly lockFile bafa6883-supports-color-0-2-0 supports-color@0.2.0
+930 silly lockFile bafa6883-supports-color-0-2-0 supports-color@0.2.0
+931 silly lockFile 9d6f190c-strip-ansi-0-3-0 strip-ansi@0.3.0
+932 silly lockFile 9d6f190c-strip-ansi-0-3-0 strip-ansi@0.3.0
+933 silly lockFile e3aa172d-supports-color-0-2-0 supports-color@^0.2.0
+934 silly lockFile e3aa172d-supports-color-0-2-0 supports-color@^0.2.0
+935 silly lockFile 3a64cb31-strip-ansi-0-3-0 strip-ansi@^0.3.0
+936 silly lockFile 3a64cb31-strip-ansi-0-3-0 strip-ansi@^0.3.0
+937 silly gunzTarPerm extractEntry lib/config/load-cafile.js
+938 silly gunzTarPerm modified mode [ 'lib/config/load-cafile.js', 420, 436 ]
+939 silly gunzTarPerm extractEntry lib/cache/add-local-tarball.js
+940 silly gunzTarPerm modified mode [ 'lib/cache/add-local-tarball.js', 420, 436 ]
+941 silly gunzTarPerm extractEntry lib/cache/add-local.js
+942 silly gunzTarPerm modified mode [ 'lib/cache/add-local.js', 420, 436 ]
+943 silly gunzTarPerm extractEntry lib/cache/add-named.js
+944 silly gunzTarPerm modified mode [ 'lib/cache/add-named.js', 420, 436 ]
+945 silly gunzTarPerm extractEntry lib/cache/add-remote-git.js
+946 silly gunzTarPerm modified mode [ 'lib/cache/add-remote-git.js', 420, 436 ]
+947 silly lockFile a78e767e-ansi-styles-1-1-0 ansi-styles@1.1.0
+948 silly lockFile a78e767e-ansi-styles-1-1-0 ansi-styles@1.1.0
+949 silly lockFile f531fbfe-ansi-styles-1-1-0 ansi-styles@^1.1.0
+950 silly lockFile f531fbfe-ansi-styles-1-1-0 ansi-styles@^1.1.0
+951 silly lockFile dfbb87ff-has-ansi-0-1-0 has-ansi@0.1.0
+952 silly lockFile dfbb87ff-has-ansi-0-1-0 has-ansi@0.1.0
+953 silly lockFile 67e902d7-has-ansi-0-1-0 has-ansi@^0.1.0
+954 silly lockFile 67e902d7-has-ansi-0-1-0 has-ansi@^0.1.0
+955 silly gunzTarPerm extractEntry lib/cache/add-remote-tarball.js
+956 silly gunzTarPerm modified mode [ 'lib/cache/add-remote-tarball.js', 420, 436 ]
+957 silly gunzTarPerm extractEntry lib/cache/cached-package-root.js
+958 silly gunzTarPerm modified mode [ 'lib/cache/cached-package-root.js', 420, 436 ]
+959 http 304 https://registry.npmjs.org/escape-string-regexp
+960 silly registry.get cb [ 304,
+960 silly registry.get   { date: 'Thu, 02 Jun 2016 13:11:02 GMT',
+960 silly registry.get     via: '1.1 varnish',
+960 silly registry.get     'cache-control': 'max-age=300',
+960 silly registry.get     etag: '"6KTGFS9RIPM29TUJQ6RDLQRVA"',
+960 silly registry.get     age: '122',
+960 silly registry.get     connection: 'keep-alive',
+960 silly registry.get     'x-served-by': 'cache-sin6922-SIN',
+960 silly registry.get     'x-cache': 'HIT',
+960 silly registry.get     'x-cache-hits': '12',
+960 silly registry.get     'x-timer': 'S1464873062.003907,VS0,VE0',
+960 silly registry.get     vary: 'Accept-Encoding' } ]
+961 verbose etag https://registry.npmjs.org/escape-string-regexp from cache
+962 silly addNameRange number 2 { name: 'escape-string-regexp',
+962 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+962 silly addNameRange   hasData: true }
+963 silly addNameRange versions [ 'escape-string-regexp',
+963 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4', '1.0.5' ] ]
+964 verbose addNamed [ 'escape-string-regexp', '1.0.5' ]
+965 verbose addNamed [ '1.0.5', '1.0.5' ]
+966 silly lockFile 50805f56-escape-string-regexp-1-0-5 escape-string-regexp@1.0.5
+967 verbose lock escape-string-regexp@1.0.5 /home/excalliburbd/.npm/50805f56-escape-string-regexp-1-0-5.lock
+968 silly gunzTarPerm extractEntry lib/cache/caching-client.js
+969 silly gunzTarPerm modified mode [ 'lib/cache/caching-client.js', 420, 436 ]
+970 silly gunzTarPerm extractEntry lib/cache/get-stat.js
+971 silly gunzTarPerm modified mode [ 'lib/cache/get-stat.js', 420, 436 ]
+972 silly gunzTarPerm extractEntry lib/cache/update-index.js
+973 silly gunzTarPerm modified mode [ 'lib/cache/update-index.js', 420, 436 ]
+974 silly gunzTarPerm extractEntry make.bat
+975 silly gunzTarPerm modified mode [ 'make.bat', 420, 436 ]
+976 silly gunzTarPerm extractEntry man/man1/npm-pack.1
+977 silly gunzTarPerm modified mode [ 'man/man1/npm-pack.1', 420, 436 ]
+978 silly gunzTarPerm extractEntry man/man1/npm-README.1
+979 silly gunzTarPerm modified mode [ 'man/man1/npm-README.1', 420, 436 ]
+980 silly gunzTarPerm extractEntry man/man1/npm-adduser.1
+981 silly gunzTarPerm modified mode [ 'man/man1/npm-adduser.1', 420, 436 ]
+982 silly gunzTarPerm extractEntry man/man1/npm-bin.1
+983 silly gunzTarPerm modified mode [ 'man/man1/npm-bin.1', 420, 436 ]
+984 silly gunzTarPerm extractEntry man/man1/npm-bugs.1
+985 silly gunzTarPerm modified mode [ 'man/man1/npm-bugs.1', 420, 436 ]
+986 silly gunzTarPerm extractEntry man/man1/npm-build.1
+987 silly gunzTarPerm modified mode [ 'man/man1/npm-build.1', 420, 436 ]
+988 silly gunzTarPerm extractEntry man/man1/npm-bundle.1
+989 silly gunzTarPerm modified mode [ 'man/man1/npm-bundle.1', 420, 436 ]
+990 silly gunzTarPerm extractEntry man/man1/npm-cache.1
+991 silly gunzTarPerm modified mode [ 'man/man1/npm-cache.1', 420, 436 ]
+992 silly lockFile 50805f56-escape-string-regexp-1-0-5 escape-string-regexp@1.0.5
+993 silly lockFile 50805f56-escape-string-regexp-1-0-5 escape-string-regexp@1.0.5
+994 silly lockFile 9f5f1582-escape-string-regexp-1-0-0 escape-string-regexp@^1.0.0
+995 silly lockFile 9f5f1582-escape-string-regexp-1-0-0 escape-string-regexp@^1.0.0
+996 silly gunzTarPerm extractEntry man/man1/npm-completion.1
+997 silly gunzTarPerm modified mode [ 'man/man1/npm-completion.1', 420, 436 ]
+998 silly gunzTarPerm extractEntry man/man1/npm-config.1
+999 silly gunzTarPerm modified mode [ 'man/man1/npm-config.1', 420, 436 ]
+1000 silly resolved [ { name: 'supports-color',
+1000 silly resolved     version: '0.2.0',
+1000 silly resolved     description: 'Detect whether a terminal supports color',
+1000 silly resolved     license: 'MIT',
+1000 silly resolved     repository:
+1000 silly resolved      { type: 'git',
+1000 silly resolved        url: 'git://github.com/sindresorhus/supports-color' },
+1000 silly resolved     bin: { 'supports-color': 'cli.js' },
+1000 silly resolved     author:
+1000 silly resolved      { name: 'Sindre Sorhus',
+1000 silly resolved        email: 'sindresorhus@gmail.com',
+1000 silly resolved        url: 'http://sindresorhus.com' },
+1000 silly resolved     engines: { node: '>=0.10.0' },
+1000 silly resolved     scripts: { test: 'mocha' },
+1000 silly resolved     files: [ 'index.js', 'cli.js' ],
+1000 silly resolved     keywords:
+1000 silly resolved      [ 'cli',
+1000 silly resolved        'bin',
+1000 silly resolved        'color',
+1000 silly resolved        'colour',
+1000 silly resolved        'colors',
+1000 silly resolved        'terminal',
+1000 silly resolved        'console',
+1000 silly resolved        'cli',
+1000 silly resolved        'ansi',
+1000 silly resolved        'styles',
+1000 silly resolved        'tty',
+1000 silly resolved        'rgb',
+1000 silly resolved        '256',
+1000 silly resolved        'shell',
+1000 silly resolved        'xterm',
+1000 silly resolved        'command-line',
+1000 silly resolved        'support',
+1000 silly resolved        'supports',
+1000 silly resolved        'capability',
+1000 silly resolved        'detect' ],
+1000 silly resolved     devDependencies: { mocha: '*' },
+1000 silly resolved     bugs: { url: 'https://github.com/sindresorhus/supports-color/issues' },
+1000 silly resolved     homepage: 'https://github.com/sindresorhus/supports-color',
+1000 silly resolved     _id: 'supports-color@0.2.0',
+1000 silly resolved     _shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+1000 silly resolved     _from: 'supports-color@^0.2.0',
+1000 silly resolved     _npmVersion: '1.4.9',
+1000 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+1000 silly resolved     maintainers: [ [Object] ],
+1000 silly resolved     dist:
+1000 silly resolved      { shasum: 'd92de2694eb3f67323973d7ae3d8b55b4c22190a',
+1000 silly resolved        tarball: 'https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz' },
+1000 silly resolved     directories: {},
+1000 silly resolved     _resolved: 'https://registry.npmjs.org/supports-color/-/supports-color-0.2.0.tgz',
+1000 silly resolved     readme: 'ERROR: No README data found!' },
+1000 silly resolved   { name: 'strip-ansi',
+1000 silly resolved     version: '0.3.0',
+1000 silly resolved     description: 'Strip ANSI escape codes',
+1000 silly resolved     license: 'MIT',
+1000 silly resolved     bin: { 'strip-ansi': 'cli.js' },
+1000 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/strip-ansi' },
+1000 silly resolved     author:
+1000 silly resolved      { name: 'Sindre Sorhus',
+1000 silly resolved        email: 'sindresorhus@gmail.com',
+1000 silly resolved        url: 'http://sindresorhus.com' },
+1000 silly resolved     engines: { node: '>=0.10.0' },
+1000 silly resolved     scripts: { test: 'mocha' },
+1000 silly resolved     files: [ 'index.js', 'cli.js' ],
+1000 silly resolved     keywords:
+1000 silly resolved      [ 'strip',
+1000 silly resolved        'trim',
+1000 silly resolved        'remove',
+1000 silly resolved        'ansi',
+1000 silly resolved        'styles',
+1000 silly resolved        'color',
+1000 silly resolved        'colour',
+1000 silly resolved        'colors',
+1000 silly resolved        'terminal',
+1000 silly resolved        'console',
+1000 silly resolved        'cli',
+1000 silly resolved        'string',
+1000 silly resolved        'tty',
+1000 silly resolved        'escape',
+1000 silly resolved        'formatting',
+1000 silly resolved        'rgb',
+1000 silly resolved        '256',
+1000 silly resolved        'shell',
+1000 silly resolved        'xterm',
+1000 silly resolved        'log',
+1000 silly resolved        'logging',
+1000 silly resolved        'command-line',
+1000 silly resolved        'text' ],
+1000 silly resolved     dependencies: { 'ansi-regex': '^0.2.1' },
+1000 silly resolved     devDependencies: { mocha: '*' },
+1000 silly resolved     bugs: { url: 'https://github.com/sindresorhus/strip-ansi/issues' },
+1000 silly resolved     homepage: 'https://github.com/sindresorhus/strip-ansi',
+1000 silly resolved     _id: 'strip-ansi@0.3.0',
+1000 silly resolved     _shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+1000 silly resolved     _from: 'strip-ansi@^0.3.0',
+1000 silly resolved     _npmVersion: '1.4.9',
+1000 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+1000 silly resolved     maintainers: [ [Object] ],
+1000 silly resolved     dist:
+1000 silly resolved      { shasum: '25f48ea22ca79187f3174a4db8759347bb126220',
+1000 silly resolved        tarball: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz' },
+1000 silly resolved     directories: {},
+1000 silly resolved     _resolved: 'https://registry.npmjs.org/strip-ansi/-/strip-ansi-0.3.0.tgz',
+1000 silly resolved     readme: 'ERROR: No README data found!' },
+1000 silly resolved   { name: 'ansi-styles',
+1000 silly resolved     version: '1.1.0',
+1000 silly resolved     description: 'ANSI escape codes for styling strings in the terminal',
+1000 silly resolved     license: 'MIT',
+1000 silly resolved     repository:
+1000 silly resolved      { type: 'git',
+1000 silly resolved        url: 'git://github.com/sindresorhus/ansi-styles' },
+1000 silly resolved     author:
+1000 silly resolved      { name: 'Sindre Sorhus',
+1000 silly resolved        email: 'sindresorhus@gmail.com',
+1000 silly resolved        url: 'http://sindresorhus.com' },
+1000 silly resolved     engines: { node: '>=0.10.0' },
+1000 silly resolved     scripts: { test: 'mocha' },
+1000 silly resolved     files: [ 'index.js' ],
+1000 silly resolved     keywords:
+1000 silly resolved      [ 'ansi',
+1000 silly resolved        'styles',
+1000 silly resolved        'color',
+1000 silly resolved        'colour',
+1000 silly resolved        'colors',
+1000 silly resolved        'terminal',
+1000 silly resolved        'console',
+1000 silly resolved        'cli',
+1000 silly resolved        'string',
+1000 silly resolved        'tty',
+1000 silly resolved        'escape',
+1000 silly resolved        'formatting',
+1000 silly resolved        'rgb',
+1000 silly resolved        '256',
+1000 silly resolved        'shell',
+1000 silly resolved        'xterm',
+1000 silly resolved        'log',
+1000 silly resolved        'logging',
+1000 silly resolved        'command-line',
+1000 silly resolved        'text' ],
+1000 silly resolved     devDependencies: { mocha: '*' },
+1000 silly resolved     bugs: { url: 'https://github.com/sindresorhus/ansi-styles/issues' },
+1000 silly resolved     homepage: 'https://github.com/sindresorhus/ansi-styles',
+1000 silly resolved     _id: 'ansi-styles@1.1.0',
+1000 silly resolved     _shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+1000 silly resolved     _from: 'ansi-styles@^1.1.0',
+1000 silly resolved     _npmVersion: '1.4.9',
+1000 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+1000 silly resolved     maintainers: [ [Object] ],
+1000 silly resolved     dist:
+1000 silly resolved      { shasum: 'eaecbf66cd706882760b2f4691582b8f55d7a7de',
+1000 silly resolved        tarball: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz' },
+1000 silly resolved     directories: {},
+1000 silly resolved     _resolved: 'https://registry.npmjs.org/ansi-styles/-/ansi-styles-1.1.0.tgz',
+1000 silly resolved     readme: 'ERROR: No README data found!' },
+1000 silly resolved   { name: 'has-ansi',
+1000 silly resolved     version: '0.1.0',
+1000 silly resolved     description: 'Check if a string has ANSI escape codes',
+1000 silly resolved     license: 'MIT',
+1000 silly resolved     repository: { type: 'git', url: 'git://github.com/sindresorhus/has-ansi' },
+1000 silly resolved     bin: { 'has-ansi': 'cli.js' },
+1000 silly resolved     author:
+1000 silly resolved      { name: 'Sindre Sorhus',
+1000 silly resolved        email: 'sindresorhus@gmail.com',
+1000 silly resolved        url: 'http://sindresorhus.com' },
+1000 silly resolved     engines: { node: '>=0.10.0' },
+1000 silly resolved     scripts: { test: 'mocha' },
+1000 silly resolved     files: [ 'index.js', 'cli.js' ],
+1000 silly resolved     keywords:
+1000 silly resolved      [ 'cli',
+1000 silly resolved        'bin',
+1000 silly resolved        'ansi',
+1000 silly resolved        'styles',
+1000 silly resolved        'color',
+1000 silly resolved        'colour',
+1000 silly resolved        'colors',
+1000 silly resolved        'terminal',
+1000 silly resolved        'console',
+1000 silly resolved        'string',
+1000 silly resolved        'tty',
+1000 silly resolved        'escape',
+1000 silly resolved        'shell',
+1000 silly resolved        'xterm',
+1000 silly resolved        'command-line',
+1000 silly resolved        'text',
+1000 silly resolved        'regex',
+1000 silly resolved        'regexp',
+1000 silly resolved        're',
+1000 silly resolved        'match',
+1000 silly resolved        'test',
+1000 silly resolved        'find',
+1000 silly resolved        'pattern',
+1000 silly resolved        'has' ],
+1000 silly resolved     dependencies: { 'ansi-regex': '^0.2.0' },
+1000 silly resolved     devDependencies: { mocha: '*' },
+1000 silly resolved     bugs: { url: 'https://github.com/sindresorhus/has-ansi/issues' },
+1000 silly resolved     homepage: 'https://github.com/sindresorhus/has-ansi',
+1000 silly resolved     _id: 'has-ansi@0.1.0',
+1000 silly resolved     _shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+1000 silly resolved     _from: 'has-ansi@^0.1.0',
+1000 silly resolved     _npmVersion: '1.4.9',
+1000 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+1000 silly resolved     maintainers: [ [Object] ],
+1000 silly resolved     dist:
+1000 silly resolved      { shasum: '84f265aae8c0e6a88a12d7022894b7568894c62e',
+1000 silly resolved        tarball: 'https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz' },
+1000 silly resolved     directories: {},
+1000 silly resolved     _resolved: 'https://registry.npmjs.org/has-ansi/-/has-ansi-0.1.0.tgz',
+1000 silly resolved     readme: 'ERROR: No README data found!' },
+1000 silly resolved   { name: 'escape-string-regexp',
+1000 silly resolved     version: '1.0.5',
+1000 silly resolved     description: 'Escape RegExp special characters',
+1000 silly resolved     license: 'MIT',
+1000 silly resolved     repository:
+1000 silly resolved      { type: 'git',
+1000 silly resolved        url: 'git+https://github.com/sindresorhus/escape-string-regexp.git' },
+1000 silly resolved     author:
+1000 silly resolved      { name: 'Sindre Sorhus',
+1000 silly resolved        email: 'sindresorhus@gmail.com',
+1000 silly resolved        url: 'sindresorhus.com' },
+1000 silly resolved     maintainers: [ [Object], [Object] ],
+1000 silly resolved     engines: { node: '>=0.8.0' },
+1000 silly resolved     scripts: { test: 'xo && ava' },
+1000 silly resolved     files: [ 'index.js' ],
+1000 silly resolved     keywords:
+1000 silly resolved      [ 'escape',
+1000 silly resolved        'regex',
+1000 silly resolved        'regexp',
+1000 silly resolved        're',
+1000 silly resolved        'regular',
+1000 silly resolved        'expression',
+1000 silly resolved        'string',
+1000 silly resolved        'str',
+1000 silly resolved        'special',
+1000 silly resolved        'characters' ],
+1000 silly resolved     devDependencies: { ava: '*', xo: '*' },
+1000 silly resolved     gitHead: 'db124a3e1aae9d692c4899e42a5c6c3e329eaa20',
+1000 silly resolved     bugs: { url: 'https://github.com/sindresorhus/escape-string-regexp/issues' },
+1000 silly resolved     homepage: 'https://github.com/sindresorhus/escape-string-regexp',
+1000 silly resolved     _id: 'escape-string-regexp@1.0.5',
+1000 silly resolved     _shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+1000 silly resolved     _from: 'escape-string-regexp@^1.0.0',
+1000 silly resolved     _npmVersion: '2.14.12',
+1000 silly resolved     _nodeVersion: '4.2.6',
+1000 silly resolved     _npmUser: { name: 'jbnicolai', email: 'jappelman@xebia.com' },
+1000 silly resolved     dist:
+1000 silly resolved      { shasum: '1b61c0562190a8dff6ae3bb2cf0200ca130b86d4',
+1000 silly resolved        tarball: 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz' },
+1000 silly resolved     _npmOperationalInternal:
+1000 silly resolved      { host: 'packages-9-west.internal.npmjs.com',
+1000 silly resolved        tmp: 'tmp/escape-string-regexp-1.0.5.tgz_1456059312074_0.7245344955008477' },
+1000 silly resolved     directories: {},
+1000 silly resolved     _resolved: 'https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz',
+1000 silly resolved     readme: 'ERROR: No README data found!' } ]
+1001 info install supports-color@0.2.0 into /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+1002 info install strip-ansi@0.3.0 into /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+1003 info install ansi-styles@1.1.0 into /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+1004 info install has-ansi@0.1.0 into /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+1005 info install escape-string-regexp@1.0.5 into /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk
+1006 info installOne supports-color@0.2.0
+1007 info installOne strip-ansi@0.3.0
+1008 info installOne ansi-styles@1.1.0
+1009 info installOne has-ansi@0.1.0
+1010 info installOne escape-string-regexp@1.0.5
+1011 verbose lib/node_modules/mantra/node_modules/chalk/node_modules/supports-color unbuild
+1012 verbose lib/node_modules/mantra/node_modules/chalk/node_modules/strip-ansi unbuild
+1013 verbose lib/node_modules/mantra/node_modules/chalk/node_modules/ansi-styles unbuild
+1014 verbose lib/node_modules/mantra/node_modules/chalk/node_modules/has-ansi unbuild
+1015 verbose lib/node_modules/mantra/node_modules/chalk/node_modules/escape-string-regexp unbuild
+1016 verbose tar unpack /home/excalliburbd/.npm/supports-color/0.2.0/package.tgz
+1017 silly lockFile 9d41004d-halk-node-modules-supports-color tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/supports-color
+1018 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/supports-color /home/excalliburbd/.npm/9d41004d-halk-node-modules-supports-color.lock
+1019 silly lockFile 2a32d8d7-supports-color-0-2-0-package-tgz tar:///home/excalliburbd/.npm/supports-color/0.2.0/package.tgz
+1020 verbose lock tar:///home/excalliburbd/.npm/supports-color/0.2.0/package.tgz /home/excalliburbd/.npm/2a32d8d7-supports-color-0-2-0-package-tgz.lock
+1021 verbose tar unpack /home/excalliburbd/.npm/strip-ansi/0.3.0/package.tgz
+1022 silly lockFile b2fd751b-es-chalk-node-modules-strip-ansi tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/strip-ansi
+1023 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/strip-ansi /home/excalliburbd/.npm/b2fd751b-es-chalk-node-modules-strip-ansi.lock
+1024 silly lockFile 0098165f-npm-strip-ansi-0-3-0-package-tgz tar:///home/excalliburbd/.npm/strip-ansi/0.3.0/package.tgz
+1025 verbose lock tar:///home/excalliburbd/.npm/strip-ansi/0.3.0/package.tgz /home/excalliburbd/.npm/0098165f-npm-strip-ansi-0-3-0-package-tgz.lock
+1026 verbose tar unpack /home/excalliburbd/.npm/ansi-styles/1.1.0/package.tgz
+1027 silly lockFile 0b0c30e7-s-chalk-node-modules-ansi-styles tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/ansi-styles
+1028 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/ansi-styles /home/excalliburbd/.npm/0b0c30e7-s-chalk-node-modules-ansi-styles.lock
+1029 silly lockFile e04c6fd7-pm-ansi-styles-1-1-0-package-tgz tar:///home/excalliburbd/.npm/ansi-styles/1.1.0/package.tgz
+1030 verbose lock tar:///home/excalliburbd/.npm/ansi-styles/1.1.0/package.tgz /home/excalliburbd/.npm/e04c6fd7-pm-ansi-styles-1-1-0-package-tgz.lock
+1031 verbose tar unpack /home/excalliburbd/.npm/has-ansi/0.1.0/package.tgz
+1032 silly lockFile 23e946d7-ules-chalk-node-modules-has-ansi tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/has-ansi
+1033 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/has-ansi /home/excalliburbd/.npm/23e946d7-ules-chalk-node-modules-has-ansi.lock
+1034 silly lockFile 20005dac-d-npm-has-ansi-0-1-0-package-tgz tar:///home/excalliburbd/.npm/has-ansi/0.1.0/package.tgz
+1035 verbose lock tar:///home/excalliburbd/.npm/has-ansi/0.1.0/package.tgz /home/excalliburbd/.npm/20005dac-d-npm-has-ansi-0-1-0-package-tgz.lock
+1036 verbose tar unpack /home/excalliburbd/.npm/escape-string-regexp/1.0.5/package.tgz
+1037 silly lockFile d5b00e70-ode-modules-escape-string-regexp tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/escape-string-regexp
+1038 verbose lock tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/escape-string-regexp /home/excalliburbd/.npm/d5b00e70-ode-modules-escape-string-regexp.lock
+1039 silly lockFile 2e6d85d7--string-regexp-1-0-5-package-tgz tar:///home/excalliburbd/.npm/escape-string-regexp/1.0.5/package.tgz
+1040 verbose lock tar:///home/excalliburbd/.npm/escape-string-regexp/1.0.5/package.tgz /home/excalliburbd/.npm/2e6d85d7--string-regexp-1-0-5-package-tgz.lock
+1041 silly gunzTarPerm modes [ '775', '664' ]
+1042 silly gunzTarPerm modes [ '775', '664' ]
+1043 silly gunzTarPerm modes [ '775', '664' ]
+1044 silly gunzTarPerm modes [ '775', '664' ]
+1045 silly gunzTarPerm modes [ '775', '664' ]
+1046 silly gunzTarPerm extractEntry package.json
+1047 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1048 silly gunzTarPerm extractEntry man/man1/npm-dedupe.1
+1049 silly gunzTarPerm modified mode [ 'man/man1/npm-dedupe.1', 420, 436 ]
+1050 silly gunzTarPerm extractEntry man/man1/npm-deprecate.1
+1051 silly gunzTarPerm modified mode [ 'man/man1/npm-deprecate.1', 420, 436 ]
+1052 silly gunzTarPerm extractEntry package.json
+1053 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1054 silly gunzTarPerm extractEntry package.json
+1055 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1056 silly gunzTarPerm extractEntry package.json
+1057 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1058 silly gunzTarPerm extractEntry package.json
+1059 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+1060 silly gunzTarPerm extractEntry cli.js
+1061 silly gunzTarPerm modified mode [ 'cli.js', 493, 509 ]
+1062 silly gunzTarPerm extractEntry index.js
+1063 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1064 silly gunzTarPerm extractEntry cli.js
+1065 silly gunzTarPerm modified mode [ 'cli.js', 493, 509 ]
+1066 silly gunzTarPerm extractEntry index.js
+1067 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1068 silly gunzTarPerm extractEntry index.js
+1069 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1070 silly gunzTarPerm extractEntry readme.md
+1071 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+1072 silly gunzTarPerm extractEntry index.js
+1073 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1074 silly gunzTarPerm extractEntry license
+1075 silly gunzTarPerm modified mode [ 'license', 420, 436 ]
+1076 silly gunzTarPerm extractEntry cli.js
+1077 silly gunzTarPerm modified mode [ 'cli.js', 493, 509 ]
+1078 silly gunzTarPerm extractEntry index.js
+1079 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+1080 silly gunzTarPerm extractEntry readme.md
+1081 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+1082 silly gunzTarPerm extractEntry readme.md
+1083 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+1084 silly gunzTarPerm extractEntry readme.md
+1085 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+1086 silly gunzTarPerm extractEntry readme.md
+1087 silly gunzTarPerm modified mode [ 'readme.md', 420, 436 ]
+1088 silly gunzTarPerm extractEntry man/man1/npm-dist-tag.1
+1089 silly gunzTarPerm modified mode [ 'man/man1/npm-dist-tag.1', 420, 436 ]
+1090 silly gunzTarPerm extractEntry man/man1/npm-docs.1
+1091 silly gunzTarPerm modified mode [ 'man/man1/npm-docs.1', 420, 436 ]
+1092 silly lockFile 0b0c30e7-s-chalk-node-modules-ansi-styles tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/ansi-styles
+1093 silly lockFile 0b0c30e7-s-chalk-node-modules-ansi-styles tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/ansi-styles
+1094 silly lockFile e04c6fd7-pm-ansi-styles-1-1-0-package-tgz tar:///home/excalliburbd/.npm/ansi-styles/1.1.0/package.tgz
+1095 silly lockFile e04c6fd7-pm-ansi-styles-1-1-0-package-tgz tar:///home/excalliburbd/.npm/ansi-styles/1.1.0/package.tgz
+1096 silly gunzTarPerm extractEntry man/man1/npm-edit.1
+1097 silly gunzTarPerm modified mode [ 'man/man1/npm-edit.1', 420, 436 ]
+1098 silly gunzTarPerm extractEntry man/man1/npm-explore.1
+1099 silly gunzTarPerm modified mode [ 'man/man1/npm-explore.1', 420, 436 ]
+1100 silly lockFile 9d41004d-halk-node-modules-supports-color tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/supports-color
+1101 silly lockFile 9d41004d-halk-node-modules-supports-color tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/supports-color
+1102 info preinstall ansi-styles@1.1.0
+1103 silly lockFile b2fd751b-es-chalk-node-modules-strip-ansi tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/strip-ansi
+1104 silly lockFile b2fd751b-es-chalk-node-modules-strip-ansi tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/strip-ansi
+1105 silly lockFile 2a32d8d7-supports-color-0-2-0-package-tgz tar:///home/excalliburbd/.npm/supports-color/0.2.0/package.tgz
+1106 silly lockFile 2a32d8d7-supports-color-0-2-0-package-tgz tar:///home/excalliburbd/.npm/supports-color/0.2.0/package.tgz
+1107 silly lockFile 0098165f-npm-strip-ansi-0-3-0-package-tgz tar:///home/excalliburbd/.npm/strip-ansi/0.3.0/package.tgz
+1108 silly lockFile 0098165f-npm-strip-ansi-0-3-0-package-tgz tar:///home/excalliburbd/.npm/strip-ansi/0.3.0/package.tgz
+1109 silly lockFile 23e946d7-ules-chalk-node-modules-has-ansi tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/has-ansi
+1110 silly lockFile 23e946d7-ules-chalk-node-modules-has-ansi tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/has-ansi
+1111 verbose readDependencies using package.json deps
+1112 silly lockFile d5b00e70-ode-modules-escape-string-regexp tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/escape-string-regexp
+1113 silly lockFile d5b00e70-ode-modules-escape-string-regexp tar:///home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/escape-string-regexp
+1114 silly lockFile 20005dac-d-npm-has-ansi-0-1-0-package-tgz tar:///home/excalliburbd/.npm/has-ansi/0.1.0/package.tgz
+1115 silly lockFile 20005dac-d-npm-has-ansi-0-1-0-package-tgz tar:///home/excalliburbd/.npm/has-ansi/0.1.0/package.tgz
+1116 verbose readDependencies using package.json deps
+1117 silly resolved []
+1118 verbose about to build /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/mantra/node_modules/chalk/node_modules/ansi-styles
+1119 error Error: Cannot find module '/home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm/lib/build.js'
+1119 error     at Function.Module._resolveFilename (module.js:338:15)
+1119 error     at Function.Module._load (module.js:280:25)
+1119 error     at Module.require (module.js:364:17)
+1119 error     at require (module.js:380:17)
+1119 error     at Object.defineProperty.get (/home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm/lib/npm.js:197:15)
+1119 error     at /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm/lib/install.js:948:18
+1119 error     at asyncMap (/home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm/node_modules/slide/lib/async-map.js:27:18)
+1119 error     at /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm/lib/install.js:600:7
+1119 error     at asyncMap (/home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm/node_modules/slide/lib/async-map.js:27:18)
+1119 error     at /home/excalliburbd/.nvm/v0.10.43/lib/node_modules/npm/lib/install.js:579:5
+1120 error If you need help, you may report this *entire* log,
+1120 error including the npm and node versions, at:
+1120 error     <http://github.com/npm/npm/issues>
+1121 error System Linux 4.2.0-36-generic
+1122 error command "/home/excalliburbd/.nvm/v0.10.43/bin/node" "/home/excalliburbd/.nvm/v0.10.43/bin/npm" "install" "-g" "npm" "mantra"
+1123 error cwd /home/excalliburbd/code/iot/demoWebInterface
+1124 error node -v v0.10.43
+1125 error npm -v 1.4.29
+1126 error code MODULE_NOT_FOUND
+1127 verbose exit [ 1, true ]
