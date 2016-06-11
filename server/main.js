@@ -1,5 +1,38 @@
 import { Meteor } from 'meteor/meteor';
+import { Mongo } from 'meteor/mongo';
 import * as five from 'johnny-five';
+
+
+//Ardatas = new Mongo.Collection("Ardatas");
+
+
+Meteor.startup(() => {
+    board = new five.Board();
+    board.on("ready", function() {
+      // Create a new `button` hardware instance.
+      button = new five.Button(2);
+    });
+});
+
+Meteor.publish('board.button', function() {
+
+  let self = this;
+  // console.log(button.on);
+  board.on("ready", function() {
+    button.on("hold", function() {
+      console.log( "Button held" );
+    });
+    button.on("press", function() {
+      console.log(button.on);
+      self.added('ardatas', 'pressed420', {event:"pressed"});
+      self.ready();
+      console.log( "Button pressed");
+    });
+    button.on("release", function() {
+      console.log( "Button released" );
+    });
+  });
+});
 
 /*Meteor.startup(() => {
     board = new JohnnyFive.Board();
@@ -19,7 +52,7 @@ Meteor.methods({
     }
 });*/
 
-Meteor.startup(() => {
+/*Meteor.startup(() => {
     board = new five.Board();
 
     board.on("ready", function() {
@@ -40,7 +73,7 @@ Meteor.startup(() => {
       lcd.useChar("check");
       lcd.useChar("heart");
       lcd.useChar("duck");
-      /*//Line 1: Hi rmurphey & hgstrp!
+      //Line 1: Hi rmurphey & hgstrp!
       lcd.clear().print("rmurphey & hgstrp!");
       lcd.cursor(1, 0);
 
@@ -48,17 +81,16 @@ Meteor.startup(() => {
       //cd.print("I").write(7).print(" johnny-five");
       // can now be written as:
       lcd.print("I :heart: johnny-five");
-      */
-      /*this.wait(3000, function() {
-        lcd.clear().cursor(0, 0).print(":heart: 2 :duck: :)");
-      });*/
+    //this.wait(3000, function() {
+    //    lcd.clear().cursor(0, 0).print(":heart: 2 :duck: :)");
+    //  });
       this.repl.inject({
         lcd: lcd
       });
     });
-})
+})*/
 
-Meteor.methods({
+/*Meteor.methods({
   'lcd.write'(message){
     if(message.length <= 16){
       lcd.cursor(0, 0);
@@ -72,4 +104,4 @@ Meteor.methods({
       lcd.print(message.slice(16));
     }
   }
-});
+});*/
